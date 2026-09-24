@@ -1,0 +1,33 @@
+.particle-footer{position:relative;isolation:isolate;background:#030504;color:#eee;min-height:280px;overflow:hidden;border-top:1px solid #ffffff15;z-index:2}
+.particle-footer canvas,.particle-footer-shade{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:-1}
+.particle-footer-shade{background:linear-gradient(180deg,#0005,transparent 45%,#000b)}
+.particle-footer-content{display:flex;justify-content:space-between;align-items:center;gap:30px;padding:150px var(--pad) 35px}
+.particle-brand{font-size:clamp(23px,3vw,38px);letter-spacing:-1.4px;font-weight:500;white-space:nowrap}.particle-brand sup{font-size:11px;vertical-align:top;letter-spacing:0}
+.particle-footer-links{display:flex;gap:25px;align-items:center;font:10px var(--mono)}
+.particle-footer-links button{font:inherit;color:#a6aba6;background:#0005;border:1px solid #ffffff25;border-radius:20px;padding:8px 12px}
+.particle-footer-links a:hover{color:#c4fc50}.particle-footer a:focus-visible,.particle-footer button:focus-visible{outline:2px solid #c4fc50;outline-offset:5px}
+.particle-footer-note{display:flex;justify-content:space-between;gap:15px;margin:0 var(--pad);padding:18px 0;border-top:1px solid #ffffff16;font:8px var(--mono);letter-spacing:1px;color:#969e97}
+@media(max-width:760px){.particle-footer-content{padding-top:110px;align-items:flex-start;flex-direction:column;gap:28px}.particle-footer-links{gap:18px;flex-wrap:wrap;font-size:9px}.particle-footer-note{font-size:7px;line-height:1.6}.particle-footer-note span{text-align:right}}
+/* Gold textile-like particle surface inspired by the supplied footer reference. */
+.particle-footer{min-height:340px;background:#050403;color:#f1e5ce;border-top:1px solid #d9b46722}
+.particle-footer-content{padding:230px var(--pad) 34px;position:relative}
+.particle-footer-shade{background:linear-gradient(180deg,#05040355,transparent 35%,#05040344 68%,#050403cc)}
+.particle-brand{font-weight:400;font-size:clamp(25px,2.4vw,36px);letter-spacing:-1.5px;color:#f3e6c9}
+.particle-footer-links{gap:28px;font-size:10px;letter-spacing:.5px}
+.particle-footer-links a:hover{color:#f4c970}
+.particle-footer-links button{background:transparent;border-color:#cfad6633;color:#b8a681;font-size:8px}
+.particle-footer a:focus-visible,.particle-footer button:focus-visible{outline-color:#e8c47a}
+.particle-footer-note{color:#96866b;border-color:#d9b46716;font-size:7px}
+@media(max-width:760px){.particle-footer-content{padding-top:170px;padding-bottom:28px}.particle-footer-links{gap:17px;font-size:9px}.particle-footer{min-height:330px}}
+.particle-footer{min-height:680px;display:flex;flex-direction:column;justify-content:flex-end}
+.gold-footer-cta{text-align:center;padding:100px 20px 145px;position:relative;z-index:1}
+.gold-footer-cta h2{font-size:clamp(34px,5.1vw,76px);font-weight:400;line-height:1.08;letter-spacing:-.055em;color:#f6edda;text-shadow:0 2px 25px #000;margin:0 0 45px}
+.gold-footer-cta>div{display:flex;justify-content:center;gap:22px;flex-wrap:wrap}
+.gold-footer-cta a{display:inline-flex;align-items:center;justify-content:center;min-height:50px;min-width:174px;padding:16px 22px;border:1px solid #d9bd7c99;border-radius:6px;font:11px var(--mono);letter-spacing:.5px;background:#05040366}
+.gold-footer-cta a:first-child{background:linear-gradient(120deg,#f7e4b6,#d5ac56);color:#261b09;border-color:#f6dfab;box-shadow:0 3px 25px #d2a64d16}
+.gold-footer-cta a:hover{filter:brightness(1.12)}
+.particle-footer-content{padding:20px var(--pad) 30px}
+.particle-footer-note{padding-bottom:26px}
+@media(max-width:760px){.particle-footer{min-height:610px}.gold-footer-cta{padding:80px 20px 100px}.gold-footer-cta h2{font-size:38px}.gold-footer-cta>div{gap:12px}.gold-footer-cta a{min-width:148px;font-size:9px;padding:14px}.particle-footer-content{padding:20px var(--pad) 28px}}
+.particle-footer-shade{background:radial-gradient(ellipse at 50% 35%,#05040399 0%,#05040322 50%,transparent 75%),linear-gradient(0deg,#050403bb,transparent 30%)}
+.particle-footer[data-mesh=fallback]{background:radial-gradient(ellipse at 30% 60%,#6a491c66,transparent 65%),#050403}

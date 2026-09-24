@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.video-tools/
+recording-overview.jpg
+.logs/
+
+.tmp-video-tools/
+.tmp-reference*.jpg

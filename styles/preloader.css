@@ -1,0 +1,20 @@
+#studio-preloader{position:fixed;inset:0;z-index:2147483647;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 35%,#073d39,#01271f 65%);color:#f7f5ed;font-family:Arial,sans-serif;text-align:center;transition:opacity .25s;overflow:hidden}
+#studio-preloader .bird-stage{width:320px;height:260px;max-width:90vw;position:relative;display:grid;place-items:center}
+#studio-preloader .bird-stage canvas{width:100%!important;height:100%!important;filter:none}
+#studio-preloader .intro-progress{font-size:54px;font-weight:300;letter-spacing:-.04em;margin:20px 0 14px;font-variant-numeric:tabular-nums}
+#studio-preloader .intro-progress>span+span{font-size:20px;margin-left:5px;color:#a4c5bf}
+#studio-preloader .intro-track{width:220px;height:2px;overflow:hidden;background:#a4c5bf30}
+#studio-preloader .intro-track span{display:block;width:100%;height:100%;background:#2ac3ef;transform:scaleX(0);transform-origin:left;box-shadow:0 0 12px #29bcea}
+#studio-preloader .intro-caption{max-width:320px;padding:0 16px;margin-top:18px;color:#b3cfc7;font-size:13px;line-height:1.6;letter-spacing:.06em}
+#studio-preloader .intro-retry{padding:12px 24px;border:1px solid #c7d7cb;border-radius:8px;background:#edf2e8;color:#18362e;cursor:pointer}
+#studio-preloader.intro-complete{opacity:0;pointer-events:none}
+@media(prefers-reduced-motion:reduce){#studio-preloader{transition:none}}
+/* A quiet continuation of the meadow; the animated bird stays in the foreground. */
+#studio-preloader{background:linear-gradient(110deg,#111f30ad,#24384299 50%,#172936a8),url('../assets/scene/meadow-daylight.png') center/cover no-repeat;color:#f5f7fa}
+#studio-preloader::before{content:"";position:absolute;inset:0;backdrop-filter:blur(12px) saturate(.65);-webkit-backdrop-filter:blur(12px) saturate(.65);pointer-events:none}
+#studio-preloader>*{position:relative;z-index:1}
+#studio-preloader .bird-stage{width:360px;height:280px;max-width:95vw}
+#studio-preloader .intro-caption{color:#d6e0e8}
+#studio-preloader .intro-progress>span+span{color:#cddce7}
+#studio-preloader .intro-track{background:#ecf4fa30}
+#studio-preloader .intro-track span{background:#e1f3ff;box-shadow:0 0 14px #c8e8ff70}
