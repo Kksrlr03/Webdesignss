@@ -1,0 +1,8 @@
+.wd-brand{display:inline-flex;align-items:center;gap:12px;color:#fff;text-decoration:none;pointer-events:auto;font-family:Inter,Arial,sans-serif;font-size:27px;font-weight:400;letter-spacing:-1px;white-space:nowrap}
+.wd-brand #iu2co,.wd-brand #iu2co-3{width:68px!important;height:auto!important;object-fit:contain;border-radius:5px}
+.wd-brand:focus-visible{outline:2px solid #29cffa;outline-offset:6px}
+.wd-loading{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;color:#fff;background:#080909;font:24px Inter,Arial,sans-serif}
+.wd-loading img{height:auto;border-radius:12px;animation:wd-pulse 1.5s ease-in-out infinite}
+@keyframes wd-pulse{50%{opacity:.55;transform:scale(.97)}}
+@media(max-width:768px){.wd-brand{font-size:22px;gap:8px}.wd-brand #iu2co,.wd-brand #iu2co-3{width:52px!important}#ia8ba-2{flex-wrap:wrap!important}}
+@media(prefers-reduced-motion:reduce){.wd-loading img{animation:none}}

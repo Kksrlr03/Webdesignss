@@ -1,0 +1,11 @@
+/* One composited light follows the pointer; no backdrop blur or layout updates. */
+.studio-pointer-light{position:fixed;left:0;top:0;width:440px;height:440px;border-radius:50%;pointer-events:none!important;z-index:30;background:radial-gradient(circle,#fff4cc18 0%,#dcebc90a 32%,transparent 69%);opacity:0;transition:opacity .3s;will-change:transform;contain:strict}
+@media(hover:hover) and (pointer:fine){
+:is(.demo-showcase-card,.brand-contact-card,.brand-approach-card,#in6nbcy>div>div,.interactive-studio-section){transition:box-shadow .25s,border-color .25s;}
+:is(.demo-showcase-card,.brand-contact-card,.brand-approach-card,#in6nbcy>div>div,.interactive-studio-section):hover{box-shadow:inset 0 1px 0 #fff9,0 0 0 1px #e5edc780,0 10px 32px #d4e4b518!important;border-color:#f3efcfbb!important}
+:is(.premium-primary,.premium-secondary,button,a):hover{ text-decoration-color:#f0dfac; }
+:is(.premium-primary,.premium-secondary,.brand-contact-card,.demo-showcase-link):hover{filter:brightness(1.09)}
+.demo-showcase-link>img{transition:transform .5s ease,filter .3s!important}.demo-showcase-link:hover>img{transform:scale(1.025)}
+}
+:is(a,button,[role=button]):focus-visible{outline:2px solid #ece6bc;outline-offset:4px}
+@media(prefers-reduced-motion:reduce){.studio-pointer-light{display:none}.demo-showcase-link:hover>img{transform:none}}

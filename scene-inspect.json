@@ -1,0 +1,4524 @@
+{
+  "renderer": {},
+  "sceneObjectId": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+  "defaultCameraId": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+  "autoResolutionSettings": {
+    "minResolution": 90,
+    "fpsThresholdMode": "ABSOLUTE",
+    "isReductionEnabled": true,
+    "fpsThresholdAbsolute": 60,
+    "fpsThresholdRelative": 100
+  },
+  "effectsOrder": [
+    "SSAO",
+    "DOF",
+    "BLOOM",
+    "VIGNETTE",
+    "TONE_MAPPING",
+    "BRIGHTNESS_CONTRAST",
+    "HUE_SATURATION",
+    "COLOR_DEPTH",
+    "NOISE",
+    "PIXELATION",
+    "3d96305d-b9d7-4aa3-8cb7-ee584fa7f75c",
+    "43bd54e1-e5c0-4c9b-8b1a-081f3a218f19",
+    "31118664-18f1-4829-ba86-3e30e115f0e8"
+  ],
+  "pwObjects": {
+    "5e38fb60-88e1-4278-9175-12d154ea3783": {
+      "name": "HERO",
+      "type": " GROUP",
+      "uuid": "5e38fb60-88e1-4278-9175-12d154ea3783",
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "position": {
+        "x": 0.5450422853332596,
+        "y": 12.425514354706523,
+        "z": -0.18263867256716135
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "castShadow": true,
+      "receiveShadow": true
+    },
+    "b88a7069-660c-47c9-986c-69ac9860e529": {
+      "name": "Smoke",
+      "type": "MESH",
+      "uuid": "b88a7069-660c-47c9-986c-69ac9860e529",
+      "scale": {
+        "x": 3.021698855415393,
+        "y": 0.5,
+        "z": 1
+      },
+      "visible": true,
+      "geometry": {
+        "type": "PLANE",
+        "uuid": "5c5e714d-00e6-4cc9-81bf-0044244a089f",
+        "width": 1,
+        "height": 1,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      "position": {
+        "x": 0.32970140007947096,
+        "y": -0.07124921061342,
+        "z": 1.12585938149159
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 3.141592653589793
+      },
+      "castShadow": false,
+      "materialId": "d3d2a9b8-8dbb-4a2c-9d3a-0ddb0a8dc172",
+      "receiveShadow": false
+    },
+    "c5d87496-61cc-4219-bb37-63e89dc7475d": {
+      "name": "scene",
+      "type": "SCENE",
+      "uuid": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "background": "#122a23",
+      "castShadow": false,
+      "environment": {
+        "uuid": "0e9c86ab-a823-4104-acf2-3dd91d4fd453",
+        "assetType": "ENVIRONMENT",
+        "assetUrl": "assets/scene/environment.hdr",
+        "environmentAssetType": "HDR_TEXTURE",
+        "blurriness": 0,
+        "intensity": 0.25,
+        "rotation": 2.607870968329927,
+        "opacity": 1
+      },
+      "ambientLight": {
+        "name": "light",
+        "type": "LIGHT",
+        "uuid": "93a42989-2cc8-46ff-b380-9c29667f5441",
+        "color": "#FFFFFF",
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "visible": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "intensity": 0.5,
+        "lightType": "AMBIENT",
+        "castShadow": false,
+        "receiveShadow": false,
+        "shadowQuality": 1024
+      },
+      "multisampling": {
+        "enabled": false,
+        "samples": 3
+      },
+      "receiveShadow": false,
+      "backgroundBlurriness": 0,
+      "fog": {
+        "near": 1,
+        "far": 2,
+        "color": "#A6A6A6",
+        "enabled": false,
+        "useBackgroundColor": true
+      }
+    },
+    "ea94b165-c53b-4704-87a9-1633ae09cd51": {
+      "far": 1000,
+      "fov": 40,
+      "name": "\u00f0\u0178\u201d\u00b4 Main Camera",
+      "near": 0.1,
+      "type": "CAMERA",
+      "uuid": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "zoom": 1,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "controls": {
+        "type": "TILT",
+        "easingDuration": 0.3,
+        "maxRotation": {
+          "x": 0.017453292519943295,
+          "y": 0.017453292519943295
+        }
+      },
+      "position": {
+        "x": 0.7018619044574363,
+        "y": 12.5574859440909,
+        "z": 1.066177826017281
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "cameraType": "PERSPECTIVE",
+      "castShadow": false,
+      "receiveShadow": false
+    },
+    "d60f992a-3010-4136-a042-2d4c5da0a055": {
+      "type": "LIGHT",
+      "uuid": "d60f992a-3010-4136-a042-2d4c5da0a055",
+      "name": "Spotlight",
+      "castShadow": false,
+      "receiveShadow": false,
+      "position": {
+        "x": 0.09191604190742646,
+        "y": 0.13516948535558534,
+        "z": 0.32894899057757687
+      },
+      "scale": {
+        "x": 1.0000000000000002,
+        "y": 0.9999999999999998,
+        "z": 1.0000000000000002
+      },
+      "visible": false,
+      "rotation": {
+        "x": 0.36810810172902914,
+        "y": -0.48562868133909504,
+        "z": -0.9249518087331458
+      },
+      "lightType": "SPOT",
+      "intensity": 0.25,
+      "color": "#ffffff",
+      "shadowQuality": 1024,
+      "distance": 0.5,
+      "decay": 2.73,
+      "angle": 0.4852015320544236,
+      "penumbra": 0.5235987755982988
+    },
+    "9ca70751-8626-4609-8e70-bb3ff01788ce": {
+      "type": "IMPORTED",
+      "uuid": "9ca70751-8626-4609-8e70-bb3ff01788ce",
+      "name": "frame",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": -0.38528737045272204,
+        "y": 1.0498046968074062,
+        "z": 0.6644002007359769
+      },
+      "scale": {
+        "x": 0.05,
+        "y": 0.05,
+        "z": 0.05
+      },
+      "visible": true,
+      "rotation": {
+        "x": 1.5707963267948963,
+        "y": 1.5707963267948966,
+        "z": 0
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "183fa37d-0234-43b2-b38a-53f5f32bf0bd",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/frame.glb"
+      },
+      "materials": [
+        "32a948eb-1e4b-4d9f-8f96-c03321e8ffbd"
+      ]
+    },
+    "3f6b3856-6cc4-4b5e-a79b-edfcefec31da": {
+      "type": "MESH",
+      "uuid": "3f6b3856-6cc4-4b5e-a79b-edfcefec31da",
+      "name": "Margin",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": -0.02827229668234199,
+        "y": 1.9797245580005518,
+        "z": 0.6710523915379826
+      },
+      "scale": {
+        "x": 4.024186006287249,
+        "y": 1.1533638752393987,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.0036706432417806783
+      },
+      "geometry": {
+        "uuid": "e6427e54-0d9b-4967-9d69-ec9cbb6217a5",
+        "type": "PLANE",
+        "width": 1,
+        "height": 1,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      "materialId": "079b3aa5-e6d0-410c-8917-dd0d93af7fc8"
+    },
+    "a7380b60-6007-46d1-b4bf-9b4ba6bf1749": {
+      "type": " GROUP",
+      "uuid": "a7380b60-6007-46d1-b4bf-9b4ba6bf1749",
+      "name": "BOTTOM",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0.7367815447152452,
+        "y": 7.122305835457444,
+        "z": -0.664400200735977
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "70a64fb1-6bef-4fe7-8965-8ff389049050": {
+      "type": " GROUP",
+      "uuid": "70a64fb1-6bef-4fe7-8965-8ff389049050",
+      "name": "Bird-Rig",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0.8154378135895327,
+        "y": 12.510262380223308,
+        "z": 0.43852921889516217
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "68e8cbae-ebcb-46a4-b4ac-0b301be72719": {
+      "type": " GROUP",
+      "uuid": "68e8cbae-ebcb-46a4-b4ac-0b301be72719",
+      "name": "BGS",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": -0.031843679831131455,
+        "y": -0.10505418602882521,
+        "z": -0.2816547975498348
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "8688f2ce-f77f-4bec-a06d-18d23dfe2321": {
+      "type": "MESH",
+      "uuid": "8688f2ce-f77f-4bec-a06d-18d23dfe2321",
+      "name": "Margin",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": -0.0351499936597029,
+        "y": 0.10602950371517306,
+        "z": 0.6710523915379826
+      },
+      "scale": {
+        "x": 4.024186006287251,
+        "y": 1.153363875239399,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.0036706432417806766
+      },
+      "geometry": {
+        "uuid": "3da1681b-2448-49b5-8e18-61a9af6ed244",
+        "type": "PLANE",
+        "width": 1,
+        "height": 1,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      "materialId": "079b3aa5-e6d0-410c-8917-dd0d93af7fc8"
+    },
+    "55fb6151-9af8-40ad-b942-77c1321fd3f5": {
+      "type": "IMPORTED",
+      "uuid": "55fb6151-9af8-40ad-b942-77c1321fd3f5",
+      "name": "Hibiscous",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0.45,
+        "y": -0.6929310791409229,
+        "z": 0.35
+      },
+      "scale": {
+        "x": 0.08,
+        "y": 0.08,
+        "z": 0.08
+      },
+      "visible": true,
+      "rotation": {
+        "x": 3.141592653589793,
+        "y": -2.4060833659799292,
+        "z": 3.141592653589793
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "fb974b33-ca90-46c3-9eca-ecbf340ab366",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/flower.glb"
+      }
+    },
+    "27e8fbf8-0e5e-4938-9eff-e96fae25ef80": {
+      "type": "MESH",
+      "uuid": "27e8fbf8-0e5e-4938-9eff-e96fae25ef80",
+      "name": "BG",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": -4.23357853485129e-06,
+        "y": 1.0784517192606877,
+        "z": -0.01186000847629276
+      },
+      "scale": {
+        "x": 2.5,
+        "y": 1.25,
+        "z": 1.25
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "geometry": {
+        "uuid": "8cdebca1-8d41-4c04-bb6a-89bb8dc6a3f8",
+        "type": "PLANE",
+        "width": 1,
+        "height": 1,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      "materialId": "2ddbdf79-6c21-4c4f-b468-204c883ee847"
+    },
+    "0c4550c1-1943-4bfe-895f-21da7268311d": {
+      "type": "IMPORTED",
+      "uuid": "0c4550c1-1943-4bfe-895f-21da7268311d",
+      "name": "Bird",
+      "castShadow": true,
+      "receiveShadow": true,
+      "position": {
+        "x": -0.13533562392048162,
+        "y": -0.06204559609077265,
+        "z": 0.13981565921876396
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 1.1533258408395428,
+        "z": 0
+      },
+      "animation": {
+        "loop": true,
+        "speed": 0.25,
+        "clipName": "Bird|nectar_picking_A1"
+      },
+      "object": {
+        "uuid": "8ebe518d-8d76-4a81-a386-283d5ad3b611",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/hummingbird.glb"
+      },
+      "materials": [
+        "1d5443c8-2623-4946-af66-3ad6968868db",
+        "45c49f2f-2e4f-4d63-9415-6de65c4d142b",
+        "07362b77-dbf9-4c25-886e-03166958ad07",
+        "44fee50e-f602-4ed9-8f05-35106add6e7c",
+        "3c3308c5-d037-4a24-b7ea-5d9d7a646284",
+        "fbc2e04c-c384-4c7c-a692-434351f07b16",
+        "64f96f42-1fe1-4ad8-8796-a1de9ffe4456",
+        "ece9587e-e5c6-455a-ac17-4af251e24e80",
+        "dd2eedef-3014-43c8-b034-713f0635c774"
+      ]
+    },
+    "df3e232e-f21c-4c0a-a464-4c16cc90d97a": {
+      "type": "MESH",
+      "uuid": "df3e232e-f21c-4c0a-a464-4c16cc90d97a",
+      "name": "BG Image",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0.15420744535191,
+        "y": 0.08084860156335338,
+        "z": 0.03153204514674912
+      },
+      "scale": {
+        "x": 2,
+        "y": 1.5,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "geometry": {
+        "uuid": "6ce16bab-dce0-4699-a71b-6f8175667722",
+        "type": "PLANE",
+        "width": 1,
+        "height": 1,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      "materialId": "adfdabbb-4356-41e3-aea2-4c6f8b57e049"
+    },
+    "26186bfb-cb58-4026-a6e5-2c4e3b94c775": {
+      "name": "BG Plane",
+      "type": "MESH",
+      "uuid": "26186bfb-cb58-4026-a6e5-2c4e3b94c775",
+      "scale": {
+        "x": 5,
+        "y": 7,
+        "z": 0.1
+      },
+      "visible": true,
+      "geometry": {
+        "type": "PLANE",
+        "uuid": "46fb1816-48b6-4562-8e6c-b613f53adf0b",
+        "width": 1,
+        "height": 1,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      "position": {
+        "x": 0.8405902417275413,
+        "y": 8.845450589457787,
+        "z": -1.2846182690915633
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "castShadow": false,
+      "materialId": "afb5c7e3-4034-4bb6-8bb0-5be57b222c50",
+      "receiveShadow": false
+    },
+    "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c": {
+      "type": "IMPORTED",
+      "uuid": "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c",
+      "name": "Bird-2",
+      "castShadow": true,
+      "receiveShadow": true,
+      "position": {
+        "x": 0.5855218365623298,
+        "y": 1.2155699370470927,
+        "z": 0.05779157460638955
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 1.1533258408395428,
+        "z": 0
+      },
+      "animation": {
+        "loop": true,
+        "speed": 0.25,
+        "clipName": "Bird|nectar_picking_A1"
+      },
+      "object": {
+        "uuid": "a50bbc96-6619-4f93-9827-92c9350731c1",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/hummingbird.glb"
+      },
+      "materials": [
+        "5480045a-64d1-44a4-99ba-b6b2b224a54f",
+        "cbf8f798-0e69-4350-8ab8-cdadb5c55927",
+        "3f62d440-b040-40e4-91f0-3c8c8e756caf",
+        "3f081635-4636-4b80-822b-82f94f4c1b9d",
+        "18a71d0a-d881-4295-8287-245e08cf6c4f",
+        "1dfc648d-e4c6-41c6-8b55-3fed0f253ca3",
+        "766028da-ea6a-4a60-80e5-5b5ad5580551",
+        "70401133-889b-4ea6-a94f-9e20834a02c4",
+        "a8145746-7ddd-48d5-a564-2fe0ac9a5863"
+      ]
+    },
+    "40250964-5ac8-45fe-90fd-c5725e37fc23": {
+      "type": "IMPORTED",
+      "uuid": "40250964-5ac8-45fe-90fd-c5725e37fc23",
+      "name": "Bird-3",
+      "castShadow": true,
+      "receiveShadow": true,
+      "position": {
+        "x": -0.7225325843250747,
+        "y": 0.9045052990889031,
+        "z": 0.06538361958190758
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": -1.1032451045533924,
+        "z": 0
+      },
+      "animation": {
+        "loop": true,
+        "speed": 0.25,
+        "clipName": "Bird|nectar_picking_A1"
+      },
+      "object": {
+        "uuid": "d7d8fca3-1f92-41f8-9d75-e1b4bd8bbe93",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/hummingbird.glb"
+      },
+      "materials": [
+        "527bd3f8-2b7a-45cd-9551-f1de191a2a1f",
+        "52539c68-31da-466e-bcdc-9b38867b8395",
+        "f3138d36-764c-4e65-8e78-eb545765189a",
+        "7efb6c2a-9adf-43a0-95ca-998136f33fba",
+        "2add5827-5b0f-4b6b-9375-37c6db6f4c43",
+        "97cc93d2-c405-48a0-9530-9659e3311308",
+        "42b58563-95ad-43db-93a9-c7515f8076ba",
+        "1d717e65-b1c4-4086-b667-0918aee88fc9",
+        "3817b0d9-3f92-4e54-aae8-88d88603014f"
+      ]
+    },
+    "b9ad8c2e-def3-436b-849c-b907fbb1fb92": {
+      "type": "IMPORTED",
+      "uuid": "b9ad8c2e-def3-436b-849c-b907fbb1fb92",
+      "name": "Hibiscous-2",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 1.3662126341546061,
+        "y": 10.819918593655224,
+        "z": 0.29
+      },
+      "scale": {
+        "x": 0.06,
+        "y": 0.06,
+        "z": 0.06
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "71277c97-8eda-44fa-8ea3-d7ca9b7c5d7d",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/flower.glb"
+      }
+    },
+    "132eff5b-9a4d-426e-9d78-ef3bd7b25e39": {
+      "name": "Transition Plane",
+      "type": "MESH",
+      "uuid": "132eff5b-9a4d-426e-9d78-ef3bd7b25e39",
+      "scale": {
+        "x": 5,
+        "y": 2,
+        "z": 0.1
+      },
+      "visible": false,
+      "geometry": {
+        "type": "PLANE",
+        "uuid": "b58a31c5-276f-4925-a0db-343045e83f36",
+        "width": 1,
+        "height": 1,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      "position": {
+        "x": 0.45919144154575997,
+        "y": -1.1610855467154195,
+        "z": 0.63846465159104
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "castShadow": false,
+      "materialId": "afb5c7e3-4034-4bb6-8bb0-5be57b222c50",
+      "receiveShadow": false
+    },
+    "56db365e-73ed-4975-a3a0-377aee827578": {
+      "type": " GROUP",
+      "uuid": "56db365e-73ed-4975-a3a0-377aee827578",
+      "name": "Cards",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0.3,
+        "y": 10,
+        "z": -0.14175322953702552
+      },
+      "scale": {
+        "x": 0.9999999999999997,
+        "y": 0.9999999999999998,
+        "z": 0.9999999999999997
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0.7273505302102621,
+        "y": -1.097335072856918,
+        "z": 0.20155897789201632
+      }
+    },
+    "44ec02b9-6536-4bfb-993d-ca8f869c2337": {
+      "type": " GROUP",
+      "uuid": "44ec02b9-6536-4bfb-993d-ca8f869c2337",
+      "name": "Group",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0.051384301117275495,
+        "y": 0.07157915316605037,
+        "z": 4.336808689942018e-19
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "ff2c81e8-d3e6-41db-8700-0a709a396466": {
+      "type": " GROUP",
+      "uuid": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+      "name": "move",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0.33579257360203,
+        "y": 0.10302518029762589,
+        "z": -0.4684995474348046
+      },
+      "scale": {
+        "x": 0.02,
+        "y": 0.02,
+        "z": 0.02
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "5d1736a7-2d66-4f7a-a749-f36e521d86bd": {
+      "type": "IMPORTED",
+      "uuid": "5d1736a7-2d66-4f7a-a749-f36e521d86bd",
+      "name": "card",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0,
+        "y": -1.1368683772161603e-13,
+        "z": 60
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1,
+        "z": 1.0000000000000018
+      },
+      "visible": true,
+      "rotation": {
+        "x": 2.8797932657906435,
+        "y": -0.30543261909900765,
+        "z": 1.3962634015954636
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "2b206b6b-fc72-4bc7-9987-d4002762ded3",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/card.glb"
+      },
+      "materials": [
+        "c5f87ab0-e6d0-427e-8eaf-216989d6e953"
+      ]
+    },
+    "897d68b8-4e3d-4803-9529-87518bbc1917": {
+      "type": "IMPORTED",
+      "uuid": "897d68b8-4e3d-4803-9529-87518bbc1917",
+      "name": "card",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0,
+        "y": -1.1368683772161603e-13,
+        "z": 54
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1,
+        "z": 1.0000000000000016
+      },
+      "visible": true,
+      "rotation": {
+        "x": 2.8797932657906435,
+        "y": -0.30543261909900765,
+        "z": 1.3962634015954636
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "f76af8b2-9524-403a-9df0-2e866936c388",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/card.glb"
+      },
+      "materials": [
+        "77f1f7fa-adcd-4a3b-b135-9d58d668b608"
+      ]
+    },
+    "31419cde-f8a5-4402-825b-741db5904745": {
+      "type": "IMPORTED",
+      "uuid": "31419cde-f8a5-4402-825b-741db5904745",
+      "name": "card",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0,
+        "y": -5.684341886080802e-14,
+        "z": 48
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1,
+        "z": 1.0000000000000013
+      },
+      "visible": true,
+      "rotation": {
+        "x": 2.8797932657906435,
+        "y": -0.30543261909900765,
+        "z": 1.3962634015954636
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "6b103aec-051e-4577-aefb-3412e7af3b7d",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/card.glb"
+      },
+      "materials": [
+        "982a3914-9c3e-491f-ae3d-249cc309bf62"
+      ]
+    },
+    "b95641be-88aa-4d60-81c1-427f0574ea1d": {
+      "type": "IMPORTED",
+      "uuid": "b95641be-88aa-4d60-81c1-427f0574ea1d",
+      "name": "card",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0,
+        "y": 5.684341886080802e-14,
+        "z": 42
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1,
+        "z": 1.0000000000000009
+      },
+      "visible": true,
+      "rotation": {
+        "x": 2.8797932657906435,
+        "y": -0.30543261909900765,
+        "z": 1.3962634015954636
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "a76cdb7a-fcf5-4e0a-9305-72fa85034532",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/card.glb"
+      },
+      "materials": [
+        "b5cd5bb8-b3da-4aff-b4c8-01fd2ecff388"
+      ]
+    },
+    "7ba1a263-cd8b-4055-b13b-67cfe34d376b": {
+      "type": "IMPORTED",
+      "uuid": "7ba1a263-cd8b-4055-b13b-67cfe34d376b",
+      "name": "card",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 36
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1,
+        "z": 1.0000000000000004
+      },
+      "visible": true,
+      "rotation": {
+        "x": 2.8797932657906435,
+        "y": -0.30543261909900765,
+        "z": 1.3962634015954636
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "cc7beb88-d655-4da3-9440-df41f4bd9218",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/card.glb"
+      },
+      "materials": [
+        "b8ffe078-94a4-4959-bada-fd1c723fd9fc"
+      ]
+    },
+    "2f284200-051d-445f-bb7d-3cc14c1edfb8": {
+      "type": "IMPORTED",
+      "uuid": "2f284200-051d-445f-bb7d-3cc14c1edfb8",
+      "name": "card",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 4.151032916788269e-16,
+        "y": 4.1510329167882674e-16,
+        "z": 30
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 2.8797932657906435,
+        "y": -0.30543261909900765,
+        "z": 1.3962634015954636
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "8aa916c4-b15f-406e-91a3-9662a345b1de",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/card.glb"
+      },
+      "materials": [
+        "340132e3-def0-4e34-96dc-7bbc790a49b4"
+      ]
+    },
+    "e87e73dc-5ad9-4d40-9294-44b56f54f7cd": {
+      "type": "IMPORTED",
+      "uuid": "e87e73dc-5ad9-4d40-9294-44b56f54f7cd",
+      "name": "card",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 4.151032916788269e-16,
+        "y": 4.1510329167882674e-16,
+        "z": 24
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 2.8797932657906435,
+        "y": -0.30543261909900765,
+        "z": 1.3962634015954636
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "1bc5a37d-59e0-4cf3-ae22-88f92a711b9f",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/card.glb"
+      },
+      "materials": [
+        "9adaf335-abb5-402d-b99c-cd64b6357e92"
+      ]
+    },
+    "3e582860-833f-4dde-a730-758a1a01d7d9": {
+      "type": "IMPORTED",
+      "uuid": "3e582860-833f-4dde-a730-758a1a01d7d9",
+      "name": "card",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 4.151032916788269e-16,
+        "y": 4.1510329167882674e-16,
+        "z": 18
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 2.8797932657906435,
+        "y": -0.30543261909900765,
+        "z": 1.3962634015954636
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "457f94ee-3232-488e-b888-715c562ea0f9",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/card.glb"
+      },
+      "materials": [
+        "8731e897-0376-4f4f-bb2b-a44568fff4be"
+      ]
+    },
+    "9629e237-6ff0-41bb-9e71-c5036faee380": {
+      "type": "IMPORTED",
+      "uuid": "9629e237-6ff0-41bb-9e71-c5036faee380",
+      "name": "card",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 4.151032916788269e-16,
+        "y": 4.1510329167882674e-16,
+        "z": 12
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 2.8797932657906435,
+        "y": -0.30543261909900765,
+        "z": 1.3962634015954636
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "54dd0f27-1ae5-43e7-89ca-5da4f18309bb",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/card.glb"
+      },
+      "materials": [
+        "94c15a49-b4b5-4213-be32-db45ecfc7e20"
+      ]
+    },
+    "fa73d731-678b-4be7-8b31-071304a93776": {
+      "type": "IMPORTED",
+      "uuid": "fa73d731-678b-4be7-8b31-071304a93776",
+      "name": "card",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": -2.5209321482860245e-17,
+        "y": -2.5209321482860245e-17,
+        "z": 6
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 2.8797932657906435,
+        "y": -0.30543261909900765,
+        "z": 1.3962634015954636
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "ab2e1757-559d-4082-ba3f-2c48af3c2f92",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/card.glb"
+      },
+      "materials": [
+        "0716fb66-541f-4cba-81f3-0c5cc2af0407"
+      ]
+    },
+    "a4b51ff5-6bed-423d-bfc1-45378a24ea4f": {
+      "type": "IMPORTED",
+      "uuid": "a4b51ff5-6bed-423d-bfc1-45378a24ea4f",
+      "name": "card",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": -3.898939701959665e-16,
+        "y": -3.8989397019596645e-16,
+        "z": 0
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 2.8797932657906435,
+        "y": -0.30543261909900765,
+        "z": 1.3962634015954636
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "60187782-efe7-4303-a8ae-6438ff2ed8d6",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/card.glb"
+      },
+      "materials": [
+        "df615e97-151a-48d3-9538-4d0ed12d6335"
+      ]
+    },
+    "339aa29f-428e-497a-90e7-086d3764980c": {
+      "type": "IMPORTED",
+      "uuid": "339aa29f-428e-497a-90e7-086d3764980c",
+      "name": "Hibiscous-2",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 1.3422431003213888,
+        "y": 9.003630572562319,
+        "z": 0.29
+      },
+      "scale": {
+        "x": 0.06,
+        "y": 0.06,
+        "z": 0.06
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "b775d7e7-fa26-4296-b5db-90eaad8b81ab",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/flower.glb"
+      }
+    },
+    "851869fe-85c5-48a6-9a2d-e595f6363148": {
+      "type": "IMPORTED",
+      "uuid": "851869fe-85c5-48a6-9a2d-e595f6363148",
+      "name": "Hibiscous-2",
+      "castShadow": false,
+      "receiveShadow": true,
+      "position": {
+        "x": 0.025810105408676814,
+        "y": 10.323009997642782,
+        "z": 0.29
+      },
+      "scale": {
+        "x": 0.06,
+        "y": 0.06,
+        "z": 0.06
+      },
+      "visible": true,
+      "rotation": {
+        "x": -3.141592653589793,
+        "y": 0,
+        "z": -3.141592653589793
+      },
+      "animation": {
+        "loop": true,
+        "speed": 1
+      },
+      "object": {
+        "uuid": "f39036e9-4417-4dc8-ace6-5b37de12f590",
+        "assetType": "GLTF",
+        "assetUrl": "assets/scene/flower.glb"
+      }
+    },
+    "153f570c-3329-48a0-9aca-f081a1de1971": {
+      "type": "LIGHT",
+      "uuid": "153f570c-3329-48a0-9aca-f081a1de1971",
+      "name": "Point Light",
+      "castShadow": false,
+      "receiveShadow": false,
+      "position": {
+        "x": -0.08462089764402514,
+        "y": -0.04790584032061673,
+        "z": 0.7656021123258856
+      },
+      "scale": {
+        "x": 0.45,
+        "y": 0.45,
+        "z": 0.45
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "lightType": "POINT",
+      "intensity": 0.25,
+      "color": "#fff1d9",
+      "shadowQuality": 1024,
+      "distance": 2,
+      "decay": 2.89
+    },
+    "4f86fdb2-224f-4e22-8e64-9cb7d4d091ff": {
+      "type": "LIGHT",
+      "uuid": "4f86fdb2-224f-4e22-8e64-9cb7d4d091ff",
+      "name": "Point Light",
+      "castShadow": false,
+      "receiveShadow": false,
+      "position": {
+        "x": -0.06374308168169118,
+        "y": -0.03644164910904735,
+        "z": 0.7760061995279199
+      },
+      "scale": {
+        "x": 0.45,
+        "y": 0.45,
+        "z": 0.45
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "lightType": "POINT",
+      "intensity": 0.25,
+      "color": "#ffffff",
+      "shadowQuality": 1024,
+      "distance": 2,
+      "decay": 2.44
+    },
+    "e8430bb1-a26b-4a75-9dcf-052b41e60a7f": {
+      "name": "Plane",
+      "type": "MESH",
+      "uuid": "e8430bb1-a26b-4a75-9dcf-052b41e60a7f",
+      "scale": {
+        "x": 5,
+        "y": 1,
+        "z": 0.1
+      },
+      "visible": true,
+      "geometry": {
+        "type": "PLANE",
+        "uuid": "8d30b52c-042c-4970-82b7-38fdafe70755",
+        "width": 1,
+        "height": 1,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      "position": {
+        "x": 0.45919144154575997,
+        "y": -0.7084601877725163,
+        "z": 0.63846465159104
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "castShadow": false,
+      "materialId": "afb5c7e3-4034-4bb6-8bb0-5be57b222c50",
+      "receiveShadow": false
+    },
+    "d747ac20-9f6f-4059-b6c9-1ba21269b572": {
+      "name": "Plane",
+      "type": "MESH",
+      "uuid": "d747ac20-9f6f-4059-b6c9-1ba21269b572",
+      "scale": {
+        "x": 5,
+        "y": 1,
+        "z": 0.1
+      },
+      "visible": true,
+      "geometry": {
+        "type": "PLANE",
+        "uuid": "abf32f17-4084-4b3e-9dfe-7f074e37e49e",
+        "width": 1,
+        "height": 1,
+        "widthSegments": 1,
+        "heightSegments": 1
+      },
+      "position": {
+        "x": 0.41772323145664336,
+        "y": -1.0400719396617006,
+        "z": 0.04918478638028853
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "castShadow": false,
+      "materialId": "afb5c7e3-4034-4bb6-8bb0-5be57b222c50",
+      "receiveShadow": false
+    },
+    "453866e7-59c5-4ae3-a94f-21f1c39b7bf0": {
+      "type": "LIGHT",
+      "uuid": "453866e7-59c5-4ae3-a94f-21f1c39b7bf0",
+      "name": "Point Light",
+      "castShadow": false,
+      "receiveShadow": false,
+      "position": {
+        "x": 0.660601876959288,
+        "y": 1.15548118668766,
+        "z": 0.4408075166453779
+      },
+      "scale": {
+        "x": 0.1,
+        "y": 0.1,
+        "z": 0.1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "lightType": "POINT",
+      "intensity": 0.25,
+      "color": "#ffffff",
+      "shadowQuality": 1024,
+      "distance": 2,
+      "decay": 2.44
+    },
+    "4d811092-88e6-4e9c-a218-d81f21664a92": {
+      "type": "LIGHT",
+      "uuid": "4d811092-88e6-4e9c-a218-d81f21664a92",
+      "name": "Point Light",
+      "castShadow": false,
+      "receiveShadow": false,
+      "position": {
+        "x": -0.7469100667494828,
+        "y": 0.9135284119444878,
+        "z": 0.4408075166453779
+      },
+      "scale": {
+        "x": 0.1,
+        "y": 0.1,
+        "z": 0.1
+      },
+      "visible": true,
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "lightType": "POINT",
+      "intensity": 0.25,
+      "color": "#ffffff",
+      "shadowQuality": 1024,
+      "distance": 2,
+      "decay": 2.44
+    }
+  },
+  "pwMaterials": {
+    "d3d2a9b8-8dbb-4a2c-9d3a-0ddb0a8dc172": {
+      "name": "MAIN BG",
+      "side": "FRONT",
+      "type": "UNLIT",
+      "uuid": "d3d2a9b8-8dbb-4a2c-9d3a-0ddb0a8dc172",
+      "color": "#739f9b",
+      "opacity": 1,
+      "alphaMap": {
+        "uuid": "558007ae-591a-47c5-9462-6541e610dff7",
+        "wrapS": "Clamp",
+        "wrapT": "Clamp",
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "assetUrl": "assets/scene/alpha-gradient.jpg",
+        "assetType": "TEXTURE"
+      },
+      "alphaTest": 0,
+      "transparent": true,
+      "reflectivity": 0
+    },
+    "32a948eb-1e4b-4d9f-8f96-c03321e8ffbd": {
+      "uuid": "32a948eb-1e4b-4d9f-8f96-c03321e8ffbd",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#18352d",
+      "opacity": 1,
+      "transparent": false,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "9ca70751-8626-4609-8e70-bb3ff01788ce"
+    },
+    "079b3aa5-e6d0-410c-8917-dd0d93af7fc8": {
+      "uuid": "079b3aa5-e6d0-410c-8917-dd0d93af7fc8",
+      "name": "Plane Material",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#18352d",
+      "opacity": 1,
+      "transparent": false,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0
+    },
+    "39c185a9-eddf-41ab-b46c-85584b16d9d5": {
+      "uuid": "39c185a9-eddf-41ab-b46c-85584b16d9d5",
+      "name": "New Material",
+      "type": "PHYSICAL",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#f06469",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.55,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.1,
+      "emissive": "#a32332",
+      "metalness": 0,
+      "ior": 1.5,
+      "reflectivity": 0,
+      "iridescence": 0,
+      "iridescenceIOR": 1.5,
+      "sheen": 0.18,
+      "sheenRoughness": 0.65,
+      "sheenColor": "#ffb0ab",
+      "clearcoat": 0,
+      "clearcoatRoughness": 0,
+      "transmission": 0,
+      "dispersion": 0,
+      "specularIntensity": 1,
+      "specularColor": "#FFFFFF",
+      "thickness": 0,
+      "attenuationColor": "#FFFFFF",
+      "attenuationDistance": 0,
+      "overrideObjectId": "55fb6151-9af8-40ad-b942-77c1321fd3f5",
+      "overrideMaterialIndex": 0,
+      "map": {
+        "uuid": "39c185a9-eddf-41ab-b46c-85584b16d9d5-petal-detail",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      }
+    },
+    "e303be4c-6fad-45f7-9082-11f3b663b4df": {
+      "uuid": "e303be4c-6fad-45f7-9082-11f3b663b4df",
+      "name": "New Material",
+      "type": "PHYSICAL",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#f06469",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.55,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.1,
+      "emissive": "#a32332",
+      "metalness": 0,
+      "ior": 1.5,
+      "reflectivity": 0,
+      "iridescence": 0,
+      "iridescenceIOR": 1.5,
+      "sheen": 0.18,
+      "sheenRoughness": 0.65,
+      "sheenColor": "#ffb0ab",
+      "clearcoat": 0,
+      "clearcoatRoughness": 0,
+      "transmission": 0,
+      "dispersion": 0,
+      "specularIntensity": 1,
+      "specularColor": "#FFFFFF",
+      "thickness": 0,
+      "attenuationColor": "#FFFFFF",
+      "attenuationDistance": 0,
+      "overrideObjectId": "55fb6151-9af8-40ad-b942-77c1321fd3f5",
+      "overrideMaterialIndex": 1
+    },
+    "2ddbdf79-6c21-4c4f-b468-204c883ee847": {
+      "uuid": "2ddbdf79-6c21-4c4f-b468-204c883ee847",
+      "name": "Plane Material",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "transparent": false,
+      "color": "#ffffff",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "726711fa-b24d-44b1-984a-4f2771ae35af",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/scene/meadow-daylight.png",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      }
+    },
+    "1d5443c8-2623-4946-af66-3ad6968868db": {
+      "uuid": "1d5443c8-2623-4946-af66-3ad6968868db",
+      "name": "Props1",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#1d1d1d",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.4697318007662835,
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "emissive": "#000000",
+      "metalness": 1,
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "0c4550c1-1943-4bfe-895f-21da7268311d"
+    },
+    "45c49f2f-2e4f-4d63-9415-6de65c4d142b": {
+      "uuid": "45c49f2f-2e4f-4d63-9415-6de65c4d142b",
+      "name": "Hummingbird_body",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#ffffff",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.58,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.12,
+      "emissive": "#60472b",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "5823c0e5-c0c2-4d5c-bd45-8647fefc6a64",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "f6c26658-7da2-4402-ab81-81cce3ec9cbf",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "06b54b4e-ee9b-4e92-99f6-9890b517e4d9",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 1,
+      "overrideObjectId": "0c4550c1-1943-4bfe-895f-21da7268311d",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "07362b77-dbf9-4c25-886e-03166958ad07": {
+      "uuid": "07362b77-dbf9-4c25-886e-03166958ad07",
+      "name": "Hummingbird_peck",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#141b14",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "c37ac469-7608-4eaa-b100-3bbb3eef4a8e",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "27813ba1-74f3-4695-a749-f780725b4bac",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "3d46370f-c11a-4969-a098-2c367b24a061",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 2,
+      "overrideObjectId": "0c4550c1-1943-4bfe-895f-21da7268311d",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "44fee50e-f602-4ed9-8f05-35106add6e7c": {
+      "uuid": "44fee50e-f602-4ed9-8f05-35106add6e7c",
+      "name": "Hummingbird_leg",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#8a6e54",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "8f2fea78-a497-464d-9d9f-7cfae84e66c3",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "a0d68f69-2d38-48bc-8e77-cf52cf471909",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "efac5a14-d00d-4180-8603-7e5760b2b8e7",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 3,
+      "overrideObjectId": "0c4550c1-1943-4bfe-895f-21da7268311d",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "3c3308c5-d037-4a24-b7ea-5d9d7a646284": {
+      "uuid": "3c3308c5-d037-4a24-b7ea-5d9d7a646284",
+      "name": "Hummingbird_tongue",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#8a6e54",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "ace99b42-5173-40ca-8501-932a6154dcd0",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "8026e3ba-b4cf-4db0-93dc-f663042d3751",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "f3fadd60-19bd-4e69-b8ef-deb5fa012f21",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 4,
+      "overrideObjectId": "0c4550c1-1943-4bfe-895f-21da7268311d",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "fbc2e04c-c384-4c7c-a692-434351f07b16": {
+      "uuid": "fbc2e04c-c384-4c7c-a692-434351f07b16",
+      "name": "Hummingbird_eyes",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#141b14",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "85f1236a-6b06-4992-aa51-550da6debacc",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "9aca958c-a46c-4d12-876e-90fac4e9940a",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "7548d16f-3bee-4e67-9dca-78679cdf58ce",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 5,
+      "overrideObjectId": "0c4550c1-1943-4bfe-895f-21da7268311d",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "64f96f42-1fe1-4ad8-8796-a1de9ffe4456": {
+      "uuid": "64f96f42-1fe1-4ad8-8796-a1de9ffe4456",
+      "name": "Hummingbird_eyelens",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": true,
+      "color": "#141b14",
+      "opacity": 0.2421455938697318,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.14,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "overrideMaterialIndex": 6,
+      "overrideObjectId": "0c4550c1-1943-4bfe-895f-21da7268311d",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "ece9587e-e5c6-455a-ac17-4af251e24e80": {
+      "uuid": "ece9587e-e5c6-455a-ac17-4af251e24e80",
+      "name": "Hummingbird_eyelids",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#141b14",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "8d3743f9-ee81-4873-a192-979be9aa449d",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "5e2341a9-6245-4585-a5d3-24bf0b70be3f",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "aacaa402-1527-4bb6-af21-b6431099f67d",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 7,
+      "overrideObjectId": "0c4550c1-1943-4bfe-895f-21da7268311d",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "dd2eedef-3014-43c8-b034-713f0635c774": {
+      "uuid": "dd2eedef-3014-43c8-b034-713f0635c774",
+      "name": "Hummingbird_feather",
+      "type": "PHYSICAL",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#ffffff",
+      "opacity": 1,
+      "alphaTest": 0.63,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.58,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.12,
+      "emissive": "#60472b",
+      "metalness": 0,
+      "ior": 1.5,
+      "reflectivity": 0,
+      "iridescence": 0,
+      "iridescenceIOR": 1.5,
+      "sheen": 0,
+      "sheenRoughness": 0,
+      "sheenColor": "#FFFFFF",
+      "clearcoat": 0,
+      "clearcoatRoughness": 0,
+      "transmission": 0,
+      "dispersion": 0,
+      "specularIntensity": 1,
+      "specularColor": "#FFFFFF",
+      "thickness": 0,
+      "attenuationColor": "#FFFFFF",
+      "attenuationDistance": 0,
+      "normalMap": {
+        "uuid": "e50df1b8-f28d-4f35-9360-50e76f65dc6a",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "roughnessMap": {
+        "uuid": "96d600c6-bf65-4e73-ac58-53a34fae74f8",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "07f0c558-4166-4081-8c86-fefff6da4d05",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 8,
+      "overrideObjectId": "0c4550c1-1943-4bfe-895f-21da7268311d",
+      "map": {
+        "uuid": "dd2eedef-3014-43c8-b034-713f0635c774-plumage",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      }
+    },
+    "adfdabbb-4356-41e3-aea2-4c6f8b57e049": {
+      "uuid": "adfdabbb-4356-41e3-aea2-4c6f8b57e049",
+      "name": "Plane Material",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "transparent": false,
+      "color": "#ffffff",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "03844827-27c6-427d-b63e-0741c0fc0f5c",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/scene/meadow-daylight.png",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      }
+    },
+    "afb5c7e3-4034-4bb6-8bb0-5be57b222c50": {
+      "name": "Plane Material",
+      "side": "DOUBLE",
+      "type": "UNLIT",
+      "uuid": "afb5c7e3-4034-4bb6-8bb0-5be57b222c50",
+      "color": "#18352d",
+      "opacity": 1,
+      "alphaTest": 0,
+      "transparent": false,
+      "reflectivity": 0
+    },
+    "5480045a-64d1-44a4-99ba-b6b2b224a54f": {
+      "uuid": "5480045a-64d1-44a4-99ba-b6b2b224a54f",
+      "name": "Props1",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#1d1d1d",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.4697318007662835,
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "emissive": "#000000",
+      "metalness": 1,
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c"
+    },
+    "cbf8f798-0e69-4350-8ab8-cdadb5c55927": {
+      "uuid": "cbf8f798-0e69-4350-8ab8-cdadb5c55927",
+      "name": "Hummingbird_body",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#ffffff",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.58,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.12,
+      "emissive": "#60472b",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "54cb44ab-29d4-4dd3-9ec4-50575ed870ab",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "afda6ea4-b27e-4a56-9b48-a89c6b2275fc",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "73e875b3-ffde-4814-9661-fa6c290ad36d",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 1,
+      "overrideObjectId": "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "3f62d440-b040-40e4-91f0-3c8c8e756caf": {
+      "uuid": "3f62d440-b040-40e4-91f0-3c8c8e756caf",
+      "name": "Hummingbird_peck",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#141b14",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "8979540b-2489-4c35-96ef-5df5a4d9ce12",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "59bec4ca-ad0a-488e-af1f-0abc47c5c996",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "753ca319-c60a-48d5-9f17-44633530b7ac",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 2,
+      "overrideObjectId": "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "3f081635-4636-4b80-822b-82f94f4c1b9d": {
+      "uuid": "3f081635-4636-4b80-822b-82f94f4c1b9d",
+      "name": "Hummingbird_leg",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#8a6e54",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "8fed7322-79c7-444c-bfa7-676e19c53baf",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "7c9cefff-93a4-4519-a6da-60f53d3f6d73",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "eaf12991-39dc-4710-ad95-7437e9ffabd2",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 3,
+      "overrideObjectId": "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "18a71d0a-d881-4295-8287-245e08cf6c4f": {
+      "uuid": "18a71d0a-d881-4295-8287-245e08cf6c4f",
+      "name": "Hummingbird_tongue",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#8a6e54",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "0a574a64-031e-4ff1-b42a-92afbf705901",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "0b4a32ab-2560-47b8-9233-6fba75a2fb39",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "a4140443-7ac5-49b1-8835-0076a0fe0097",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 4,
+      "overrideObjectId": "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "1dfc648d-e4c6-41c6-8b55-3fed0f253ca3": {
+      "uuid": "1dfc648d-e4c6-41c6-8b55-3fed0f253ca3",
+      "name": "Hummingbird_eyes",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#141b14",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "52b35390-ca5a-42c4-b1d5-3bac5ba348c5",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "de105c06-6ed9-4274-b902-0f2e2a09f0cf",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "87a7268a-c59c-454b-927b-9208e49e6e31",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 5,
+      "overrideObjectId": "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "766028da-ea6a-4a60-80e5-5b5ad5580551": {
+      "uuid": "766028da-ea6a-4a60-80e5-5b5ad5580551",
+      "name": "Hummingbird_eyelens",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": true,
+      "color": "#141b14",
+      "opacity": 0.2421455938697318,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.14,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "overrideMaterialIndex": 6,
+      "overrideObjectId": "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "70401133-889b-4ea6-a94f-9e20834a02c4": {
+      "uuid": "70401133-889b-4ea6-a94f-9e20834a02c4",
+      "name": "Hummingbird_eyelids",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#141b14",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "32655b56-a621-4a53-88a5-48c13343740b",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "dc0f4824-9986-4262-ac89-bb3ea305662c",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "9499a52e-12f4-4ae3-a83d-9c1958649bd6",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 7,
+      "overrideObjectId": "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "a8145746-7ddd-48d5-a564-2fe0ac9a5863": {
+      "uuid": "a8145746-7ddd-48d5-a564-2fe0ac9a5863",
+      "name": "Hummingbird_feather",
+      "type": "PHYSICAL",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#ffffff",
+      "opacity": 1,
+      "alphaTest": 0.63,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.58,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.12,
+      "emissive": "#60472b",
+      "metalness": 0,
+      "ior": 1.5,
+      "reflectivity": 0,
+      "iridescence": 0,
+      "iridescenceIOR": 1.5,
+      "sheen": 0,
+      "sheenRoughness": 0,
+      "sheenColor": "#FFFFFF",
+      "clearcoat": 0,
+      "clearcoatRoughness": 0,
+      "transmission": 0,
+      "dispersion": 0,
+      "specularIntensity": 1,
+      "specularColor": "#FFFFFF",
+      "thickness": 0,
+      "attenuationColor": "#FFFFFF",
+      "attenuationDistance": 0,
+      "normalMap": {
+        "uuid": "cdcb8765-2063-4696-b88a-98efee45898e",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "roughnessMap": {
+        "uuid": "a303c9b0-8705-45fa-ba75-49d71f00b022",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "920b973c-fda3-4ce1-879b-541e4b961ad9",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 8,
+      "overrideObjectId": "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c",
+      "map": {
+        "uuid": "a8145746-7ddd-48d5-a564-2fe0ac9a5863-plumage",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      }
+    },
+    "527bd3f8-2b7a-45cd-9551-f1de191a2a1f": {
+      "uuid": "527bd3f8-2b7a-45cd-9551-f1de191a2a1f",
+      "name": "Props1",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#1d1d1d",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.4697318007662835,
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "emissive": "#000000",
+      "metalness": 1,
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "40250964-5ac8-45fe-90fd-c5725e37fc23"
+    },
+    "52539c68-31da-466e-bcdc-9b38867b8395": {
+      "uuid": "52539c68-31da-466e-bcdc-9b38867b8395",
+      "name": "Hummingbird_body",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#ffffff",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.58,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.12,
+      "emissive": "#60472b",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "8ed2e826-ca82-4f35-8411-1ff1ea68abb1",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "d9f3fdad-6c54-4e2a-bf92-d5a7caf98a68",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "298ac5b9-b5d3-4bf6-b0cc-14172d058b76",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 1,
+      "overrideObjectId": "40250964-5ac8-45fe-90fd-c5725e37fc23",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "f3138d36-764c-4e65-8e78-eb545765189a": {
+      "uuid": "f3138d36-764c-4e65-8e78-eb545765189a",
+      "name": "Hummingbird_peck",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#141b14",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "48ab2273-b199-4a6a-b973-f2a6600e0cc5",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "b47555b9-65d5-48cf-8755-28d2b4b66147",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "b3f00397-23bd-459c-b70e-c717955851c0",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 2,
+      "overrideObjectId": "40250964-5ac8-45fe-90fd-c5725e37fc23",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "7efb6c2a-9adf-43a0-95ca-998136f33fba": {
+      "uuid": "7efb6c2a-9adf-43a0-95ca-998136f33fba",
+      "name": "Hummingbird_leg",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#8a6e54",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "2cdb1c48-3dc3-41ae-909e-4aae0465d882",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "4b53aa8a-952a-4642-b74b-d653e06be6e1",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "4ff0001c-8674-41e5-bd2a-86a675a81c78",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 3,
+      "overrideObjectId": "40250964-5ac8-45fe-90fd-c5725e37fc23",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "2add5827-5b0f-4b6b-9375-37c6db6f4c43": {
+      "uuid": "2add5827-5b0f-4b6b-9375-37c6db6f4c43",
+      "name": "Hummingbird_tongue",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#8a6e54",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "bb3eb570-de65-4b88-8002-f0d8c9bb62b5",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "bdd26b33-4626-41a5-b0e5-9d0e75040990",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "a0cef2d5-c5a3-4e74-b7dd-0a3ab21e7617",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 4,
+      "overrideObjectId": "40250964-5ac8-45fe-90fd-c5725e37fc23",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "97cc93d2-c405-48a0-9530-9659e3311308": {
+      "uuid": "97cc93d2-c405-48a0-9530-9659e3311308",
+      "name": "Hummingbird_eyes",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#141b14",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "65c9c089-f39c-409c-b4ff-5ecf069cda50",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "d790e9f3-a15b-4273-a3e0-fcb161d13a73",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "e96a8b24-26c8-4d3f-9810-185707bc0a6c",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 5,
+      "overrideObjectId": "40250964-5ac8-45fe-90fd-c5725e37fc23",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "42b58563-95ad-43db-93a9-c7515f8076ba": {
+      "uuid": "42b58563-95ad-43db-93a9-c7515f8076ba",
+      "name": "Hummingbird_eyelens",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": true,
+      "color": "#141b14",
+      "opacity": 0.2421455938697318,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.14,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "overrideMaterialIndex": 6,
+      "overrideObjectId": "40250964-5ac8-45fe-90fd-c5725e37fc23",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "1d717e65-b1c4-4086-b667-0918aee88fc9": {
+      "uuid": "1d717e65-b1c4-4086-b667-0918aee88fc9",
+      "name": "Hummingbird_eyelids",
+      "type": "LIT",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#141b14",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.8,
+      "displacementScale": 1,
+      "emissiveIntensity": 0,
+      "emissive": "#000000",
+      "metalness": 0,
+      "roughnessMap": {
+        "uuid": "77f41590-0c03-47d2-9dce-992ce6ab5e0d",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "d0974cc9-f4f4-45be-8009-c1d7f607c392",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "map": {
+        "uuid": "af972106-7b6b-4871-941d-c06f338839c4",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 7,
+      "overrideObjectId": "40250964-5ac8-45fe-90fd-c5725e37fc23",
+      "iridescence": 0,
+      "sheen": 0
+    },
+    "3817b0d9-3f92-4e54-aae8-88d88603014f": {
+      "uuid": "3817b0d9-3f92-4e54-aae8-88d88603014f",
+      "name": "Hummingbird_feather",
+      "type": "PHYSICAL",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#ffffff",
+      "opacity": 1,
+      "alphaTest": 0.63,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.58,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.12,
+      "emissive": "#60472b",
+      "metalness": 0,
+      "ior": 1.5,
+      "reflectivity": 0,
+      "iridescence": 0,
+      "iridescenceIOR": 1.5,
+      "sheen": 0,
+      "sheenRoughness": 0,
+      "sheenColor": "#FFFFFF",
+      "clearcoat": 0,
+      "clearcoatRoughness": 0,
+      "transmission": 0,
+      "dispersion": 0,
+      "specularIntensity": 1,
+      "specularColor": "#FFFFFF",
+      "thickness": 0,
+      "attenuationColor": "#FFFFFF",
+      "attenuationDistance": 0,
+      "normalMap": {
+        "uuid": "15eaa89c-0230-48d2-81dd-988fe492fd2f",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "roughnessMap": {
+        "uuid": "870b7164-7674-4a70-a390-5b66cb189e73",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "metalnessMap": {
+        "uuid": "e4272ee7-0030-4e94-8884-b757093232c6",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      },
+      "overrideMaterialIndex": 8,
+      "overrideObjectId": "40250964-5ac8-45fe-90fd-c5725e37fc23",
+      "map": {
+        "uuid": "3817b0d9-3f92-4e54-aae8-88d88603014f-plumage",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      }
+    },
+    "5d267dba-947d-4ae2-96b1-2b936413a5c3": {
+      "uuid": "5d267dba-947d-4ae2-96b1-2b936413a5c3",
+      "name": "New Material",
+      "type": "PHYSICAL",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#f06469",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.55,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.1,
+      "emissive": "#a32332",
+      "metalness": 0,
+      "ior": 1.5,
+      "reflectivity": 0,
+      "iridescence": 0,
+      "iridescenceIOR": 1.5,
+      "sheen": 0.18,
+      "sheenRoughness": 0.65,
+      "sheenColor": "#ffb0ab",
+      "clearcoat": 0,
+      "clearcoatRoughness": 0,
+      "transmission": 0,
+      "dispersion": 0,
+      "specularIntensity": 1,
+      "specularColor": "#FFFFFF",
+      "thickness": 0,
+      "attenuationColor": "#FFFFFF",
+      "attenuationDistance": 0,
+      "overrideObjectId": "b9ad8c2e-def3-436b-849c-b907fbb1fb92",
+      "overrideMaterialIndex": 0,
+      "map": {
+        "uuid": "5d267dba-947d-4ae2-96b1-2b936413a5c3-petal-detail",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      }
+    },
+    "2d456738-e2f5-40b1-b160-fab0f2488478": {
+      "uuid": "2d456738-e2f5-40b1-b160-fab0f2488478",
+      "name": "New Material",
+      "type": "PHYSICAL",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#f06469",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.55,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.1,
+      "emissive": "#a32332",
+      "metalness": 0,
+      "ior": 1.5,
+      "reflectivity": 0,
+      "iridescence": 0,
+      "iridescenceIOR": 1.5,
+      "sheen": 0.18,
+      "sheenRoughness": 0.65,
+      "sheenColor": "#ffb0ab",
+      "clearcoat": 0,
+      "clearcoatRoughness": 0,
+      "transmission": 0,
+      "dispersion": 0,
+      "specularIntensity": 1,
+      "specularColor": "#FFFFFF",
+      "thickness": 0,
+      "attenuationColor": "#FFFFFF",
+      "attenuationDistance": 0,
+      "overrideObjectId": "b9ad8c2e-def3-436b-849c-b907fbb1fb92",
+      "overrideMaterialIndex": 1
+    },
+    "c5f87ab0-e6d0-427e-8eaf-216989d6e953": {
+      "uuid": "c5f87ab0-e6d0-427e-8eaf-216989d6e953",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#ffffff",
+      "opacity": 1,
+      "transparent": true,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "8bf77377-05d2-411c-a254-c11a1832310a",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/images/agency-photos/photo-01.jpg",
+        "repeat": {
+          "x": 0.421875,
+          "y": -1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0.2890625,
+          "y": 1
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      },
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "5d1736a7-2d66-4f7a-a749-f36e521d86bd"
+    },
+    "77f1f7fa-adcd-4a3b-b135-9d58d668b608": {
+      "uuid": "77f1f7fa-adcd-4a3b-b135-9d58d668b608",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#ffffff",
+      "opacity": 0.96,
+      "transparent": true,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "55bcfd93-5c08-4f76-9378-a0cf8d7aadfe",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/images/agency-photos/photo-10.jpg",
+        "repeat": {
+          "x": 0.5625,
+          "y": -1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0.21875,
+          "y": 1
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      },
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "897d68b8-4e3d-4803-9529-87518bbc1917"
+    },
+    "982a3914-9c3e-491f-ae3d-249cc309bf62": {
+      "uuid": "982a3914-9c3e-491f-ae3d-249cc309bf62",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#ffffff",
+      "opacity": 0.96,
+      "transparent": true,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "a8fdb236-0129-440e-bfb2-bcb8d3e3dd5c",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/images/agency-photos/photo-06.jpg",
+        "repeat": {
+          "x": 0.421875,
+          "y": -1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0.2890625,
+          "y": 1
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      },
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "31419cde-f8a5-4402-825b-741db5904745"
+    },
+    "b5cd5bb8-b3da-4aff-b4c8-01fd2ecff388": {
+      "uuid": "b5cd5bb8-b3da-4aff-b4c8-01fd2ecff388",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#ffffff",
+      "opacity": 0.96,
+      "transparent": true,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "ae26af51-2617-407a-aa23-9efec2175865",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/images/agency-photos/photo-07.jpg",
+        "repeat": {
+          "x": 1,
+          "y": -0.7501172058134083
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0.8750586029067042
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      },
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "b95641be-88aa-4d60-81c1-427f0574ea1d"
+    },
+    "b8ffe078-94a4-4959-bada-fd1c723fd9fc": {
+      "uuid": "b8ffe078-94a4-4959-bada-fd1c723fd9fc",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#ffffff",
+      "opacity": 0.96,
+      "transparent": true,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "897b6f43-ce7a-4c75-972a-843d618eba79",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/images/agency-photos/photo-04.jpg",
+        "repeat": {
+          "x": 0.421875,
+          "y": -1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0.2890625,
+          "y": 1
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      },
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "7ba1a263-cd8b-4055-b13b-67cfe34d376b"
+    },
+    "340132e3-def0-4e34-96dc-7bbc790a49b4": {
+      "uuid": "340132e3-def0-4e34-96dc-7bbc790a49b4",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#ffffff",
+      "opacity": 0.96,
+      "transparent": true,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "ca646829-8d15-44f2-b1f6-28c2e72da2c3",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/images/agency-photos/photo-08.jpg",
+        "repeat": {
+          "x": 1,
+          "y": -0.887779164932723
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0.9438895824663616
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      },
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "2f284200-051d-445f-bb7d-3cc14c1edfb8"
+    },
+    "9adaf335-abb5-402d-b99c-cd64b6357e92": {
+      "uuid": "9adaf335-abb5-402d-b99c-cd64b6357e92",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#ffffff",
+      "opacity": 0.96,
+      "transparent": true,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "724fb82c-f39b-4261-b6f4-aa36003f94d7",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/images/agency-photos/photo-03.jpg",
+        "repeat": {
+          "x": 0.421875,
+          "y": -1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0.2890625,
+          "y": 1
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      },
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "e87e73dc-5ad9-4d40-9294-44b56f54f7cd"
+    },
+    "8731e897-0376-4f4f-bb2b-a44568fff4be": {
+      "uuid": "8731e897-0376-4f4f-bb2b-a44568fff4be",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#ffffff",
+      "opacity": 0.96,
+      "transparent": true,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "9c5f1fe0-aa40-4ba4-add9-f39263ba2107",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/images/agency-photos/photo-02.jpg",
+        "repeat": {
+          "x": 0.50015625,
+          "y": -1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0.24992187500000002,
+          "y": 1
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      },
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "3e582860-833f-4dde-a730-758a1a01d7d9"
+    },
+    "94c15a49-b4b5-4213-be32-db45ecfc7e20": {
+      "uuid": "94c15a49-b4b5-4213-be32-db45ecfc7e20",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#ffffff",
+      "opacity": 0.96,
+      "transparent": true,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "478d8e8c-8d25-4ceb-87bd-eea3d68720a3",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/images/agency-photos/photo-05.jpg",
+        "repeat": {
+          "x": 0.421875,
+          "y": -1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0.2890625,
+          "y": 1
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      },
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "9629e237-6ff0-41bb-9e71-c5036faee380"
+    },
+    "0716fb66-541f-4cba-81f3-0c5cc2af0407": {
+      "uuid": "0716fb66-541f-4cba-81f3-0c5cc2af0407",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#ffffff",
+      "opacity": 0.96,
+      "transparent": true,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "7354a477-e60b-4472-9a2d-ea88be25d025",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/images/agency-photos/photo-09.jpg",
+        "repeat": {
+          "x": 0.50015625,
+          "y": -1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0.24992187500000002,
+          "y": 1
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      },
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "fa73d731-678b-4be7-8b31-071304a93776"
+    },
+    "df615e97-151a-48d3-9538-4d0ed12d6335": {
+      "uuid": "df615e97-151a-48d3-9538-4d0ed12d6335",
+      "name": "",
+      "type": "UNLIT",
+      "side": "FRONT",
+      "color": "#ffffff",
+      "opacity": 0.96,
+      "transparent": true,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "reflectivity": 0,
+      "map": {
+        "uuid": "b0a2b6e0-3118-4545-be50-acba4910a0da",
+        "assetType": "TEXTURE",
+        "assetUrl": "assets/images/agency-photos/photo-11.jpg",
+        "repeat": {
+          "x": 1,
+          "y": -0.8888888888888888
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0.9444444444444444
+        },
+        "wrapS": "Clamp",
+        "wrapT": "Clamp"
+      },
+      "overrideMaterialIndex": 0,
+      "overrideObjectId": "a4b51ff5-6bed-423d-bfc1-45378a24ea4f"
+    },
+    "7c432ddf-6e79-4164-ab70-81ed8855724d": {
+      "uuid": "7c432ddf-6e79-4164-ab70-81ed8855724d",
+      "name": "New Material",
+      "type": "PHYSICAL",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#f06469",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.55,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.1,
+      "emissive": "#a32332",
+      "metalness": 0,
+      "ior": 1.5,
+      "reflectivity": 0,
+      "iridescence": 0,
+      "iridescenceIOR": 1.5,
+      "sheen": 0.18,
+      "sheenRoughness": 0.65,
+      "sheenColor": "#ffb0ab",
+      "clearcoat": 0,
+      "clearcoatRoughness": 0,
+      "transmission": 0,
+      "dispersion": 0,
+      "specularIntensity": 1,
+      "specularColor": "#FFFFFF",
+      "thickness": 0,
+      "attenuationColor": "#FFFFFF",
+      "attenuationDistance": 0,
+      "overrideObjectId": "339aa29f-428e-497a-90e7-086d3764980c",
+      "overrideMaterialIndex": 0,
+      "map": {
+        "uuid": "7c432ddf-6e79-4164-ab70-81ed8855724d-petal-detail",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      }
+    },
+    "8bc5a977-6450-41cc-8a67-d91ed08a3dba": {
+      "uuid": "8bc5a977-6450-41cc-8a67-d91ed08a3dba",
+      "name": "New Material",
+      "type": "PHYSICAL",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#f06469",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.55,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.1,
+      "emissive": "#a32332",
+      "metalness": 0,
+      "ior": 1.5,
+      "reflectivity": 0,
+      "iridescence": 0,
+      "iridescenceIOR": 1.5,
+      "sheen": 0.18,
+      "sheenRoughness": 0.65,
+      "sheenColor": "#ffb0ab",
+      "clearcoat": 0,
+      "clearcoatRoughness": 0,
+      "transmission": 0,
+      "dispersion": 0,
+      "specularIntensity": 1,
+      "specularColor": "#FFFFFF",
+      "thickness": 0,
+      "attenuationColor": "#FFFFFF",
+      "attenuationDistance": 0,
+      "overrideObjectId": "339aa29f-428e-497a-90e7-086d3764980c",
+      "overrideMaterialIndex": 1
+    },
+    "d0ad9635-5bd1-4cd3-b296-8dffb958ca70": {
+      "uuid": "d0ad9635-5bd1-4cd3-b296-8dffb958ca70",
+      "name": "New Material",
+      "type": "PHYSICAL",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#f06469",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.55,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.1,
+      "emissive": "#a32332",
+      "metalness": 0,
+      "ior": 1.5,
+      "reflectivity": 0,
+      "iridescence": 0,
+      "iridescenceIOR": 1.5,
+      "sheen": 0.18,
+      "sheenRoughness": 0.65,
+      "sheenColor": "#ffb0ab",
+      "clearcoat": 0,
+      "clearcoatRoughness": 0,
+      "transmission": 0,
+      "dispersion": 0,
+      "specularIntensity": 1,
+      "specularColor": "#FFFFFF",
+      "thickness": 0,
+      "attenuationColor": "#FFFFFF",
+      "attenuationDistance": 0,
+      "overrideObjectId": "851869fe-85c5-48a6-9a2d-e595f6363148",
+      "overrideMaterialIndex": 0,
+      "map": {
+        "uuid": "d0ad9635-5bd1-4cd3-b296-8dffb958ca70-petal-detail",
+        "assetType": "TEXTURE",
+        "assetUrl": "imported_texture",
+        "repeat": {
+          "x": 1,
+          "y": 1
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "wrapS": "Repeat",
+        "wrapT": "Repeat"
+      }
+    },
+    "a5763a69-9752-43d8-b49d-c74bdabee0fe": {
+      "uuid": "a5763a69-9752-43d8-b49d-c74bdabee0fe",
+      "name": "New Material",
+      "type": "PHYSICAL",
+      "side": "DOUBLE",
+      "transparent": false,
+      "color": "#f06469",
+      "opacity": 1,
+      "alphaTest": 0,
+      "aoMapIntensity": 1,
+      "flatShading": false,
+      "roughness": 0.55,
+      "displacementScale": 1,
+      "emissiveIntensity": 0.1,
+      "emissive": "#a32332",
+      "metalness": 0,
+      "ior": 1.5,
+      "reflectivity": 0,
+      "iridescence": 0,
+      "iridescenceIOR": 1.5,
+      "sheen": 0.18,
+      "sheenRoughness": 0.65,
+      "sheenColor": "#ffb0ab",
+      "clearcoat": 0,
+      "clearcoatRoughness": 0,
+      "transmission": 0,
+      "dispersion": 0,
+      "specularIntensity": 1,
+      "specularColor": "#FFFFFF",
+      "thickness": 0,
+      "attenuationColor": "#FFFFFF",
+      "attenuationDistance": 0,
+      "overrideObjectId": "851869fe-85c5-48a6-9a2d-e595f6363148",
+      "overrideMaterialIndex": 1
+    }
+  },
+  "parents": {
+    "a7380b60-6007-46d1-b4bf-9b4ba6bf1749": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+    "3f6b3856-6cc4-4b5e-a79b-edfcefec31da": "a7380b60-6007-46d1-b4bf-9b4ba6bf1749",
+    "d60f992a-3010-4136-a042-2d4c5da0a055": "70a64fb1-6bef-4fe7-8965-8ff389049050",
+    "68e8cbae-ebcb-46a4-b4ac-0b301be72719": "a7380b60-6007-46d1-b4bf-9b4ba6bf1749",
+    "8688f2ce-f77f-4bec-a06d-18d23dfe2321": "a7380b60-6007-46d1-b4bf-9b4ba6bf1749",
+    "df3e232e-f21c-4c0a-a464-4c16cc90d97a": "5e38fb60-88e1-4278-9175-12d154ea3783",
+    "55fb6151-9af8-40ad-b942-77c1321fd3f5": "5e38fb60-88e1-4278-9175-12d154ea3783",
+    "0c4550c1-1943-4bfe-895f-21da7268311d": "70a64fb1-6bef-4fe7-8965-8ff389049050",
+    "40250964-5ac8-45fe-90fd-c5725e37fc23": "68e8cbae-ebcb-46a4-b4ac-0b301be72719",
+    "b88a7069-660c-47c9-986c-69ac9860e529": "5e38fb60-88e1-4278-9175-12d154ea3783",
+    "26186bfb-cb58-4026-a6e5-2c4e3b94c775": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+    "132eff5b-9a4d-426e-9d78-ef3bd7b25e39": "5e38fb60-88e1-4278-9175-12d154ea3783",
+    "5e38fb60-88e1-4278-9175-12d154ea3783": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+    "ea94b165-c53b-4704-87a9-1633ae09cd51": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+    "70a64fb1-6bef-4fe7-8965-8ff389049050": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+    "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c": "68e8cbae-ebcb-46a4-b4ac-0b301be72719",
+    "27e8fbf8-0e5e-4938-9eff-e96fae25ef80": "68e8cbae-ebcb-46a4-b4ac-0b301be72719",
+    "9ca70751-8626-4609-8e70-bb3ff01788ce": "a7380b60-6007-46d1-b4bf-9b4ba6bf1749",
+    "44ec02b9-6536-4bfb-993d-ca8f869c2337": "56db365e-73ed-4975-a3a0-377aee827578",
+    "ff2c81e8-d3e6-41db-8700-0a709a396466": "44ec02b9-6536-4bfb-993d-ca8f869c2337",
+    "5d1736a7-2d66-4f7a-a749-f36e521d86bd": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+    "897d68b8-4e3d-4803-9529-87518bbc1917": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+    "31419cde-f8a5-4402-825b-741db5904745": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+    "b95641be-88aa-4d60-81c1-427f0574ea1d": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+    "7ba1a263-cd8b-4055-b13b-67cfe34d376b": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+    "2f284200-051d-445f-bb7d-3cc14c1edfb8": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+    "e87e73dc-5ad9-4d40-9294-44b56f54f7cd": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+    "3e582860-833f-4dde-a730-758a1a01d7d9": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+    "9629e237-6ff0-41bb-9e71-c5036faee380": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+    "fa73d731-678b-4be7-8b31-071304a93776": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+    "a4b51ff5-6bed-423d-bfc1-45378a24ea4f": "ff2c81e8-d3e6-41db-8700-0a709a396466",
+    "56db365e-73ed-4975-a3a0-377aee827578": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+    "339aa29f-428e-497a-90e7-086d3764980c": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+    "b9ad8c2e-def3-436b-849c-b907fbb1fb92": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+    "851869fe-85c5-48a6-9a2d-e595f6363148": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+    "153f570c-3329-48a0-9aca-f081a1de1971": "70a64fb1-6bef-4fe7-8965-8ff389049050",
+    "4f86fdb2-224f-4e22-8e64-9cb7d4d091ff": "70a64fb1-6bef-4fe7-8965-8ff389049050",
+    "e8430bb1-a26b-4a75-9dcf-052b41e60a7f": "5e38fb60-88e1-4278-9175-12d154ea3783",
+    "d747ac20-9f6f-4059-b6c9-1ba21269b572": "5e38fb60-88e1-4278-9175-12d154ea3783",
+    "453866e7-59c5-4ae3-a94f-21f1c39b7bf0": "68e8cbae-ebcb-46a4-b4ac-0b301be72719",
+    "4d811092-88e6-4e9c-a218-d81f21664a92": "68e8cbae-ebcb-46a4-b4ac-0b301be72719"
+  },
+  "children": {
+    "5e38fb60-88e1-4278-9175-12d154ea3783": [
+      "d747ac20-9f6f-4059-b6c9-1ba21269b572",
+      "e8430bb1-a26b-4a75-9dcf-052b41e60a7f",
+      "132eff5b-9a4d-426e-9d78-ef3bd7b25e39",
+      "b88a7069-660c-47c9-986c-69ac9860e529",
+      "55fb6151-9af8-40ad-b942-77c1321fd3f5",
+      "df3e232e-f21c-4c0a-a464-4c16cc90d97a"
+    ],
+    "c5d87496-61cc-4219-bb37-63e89dc7475d": [
+      "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "70a64fb1-6bef-4fe7-8965-8ff389049050",
+      "5e38fb60-88e1-4278-9175-12d154ea3783",
+      "b9ad8c2e-def3-436b-849c-b907fbb1fb92",
+      "851869fe-85c5-48a6-9a2d-e595f6363148",
+      "56db365e-73ed-4975-a3a0-377aee827578",
+      "339aa29f-428e-497a-90e7-086d3764980c",
+      "a7380b60-6007-46d1-b4bf-9b4ba6bf1749",
+      "26186bfb-cb58-4026-a6e5-2c4e3b94c775"
+    ],
+    "a7380b60-6007-46d1-b4bf-9b4ba6bf1749": [
+      "8688f2ce-f77f-4bec-a06d-18d23dfe2321",
+      "9ca70751-8626-4609-8e70-bb3ff01788ce",
+      "3f6b3856-6cc4-4b5e-a79b-edfcefec31da",
+      "68e8cbae-ebcb-46a4-b4ac-0b301be72719"
+    ],
+    "70a64fb1-6bef-4fe7-8965-8ff389049050": [
+      "4f86fdb2-224f-4e22-8e64-9cb7d4d091ff",
+      "153f570c-3329-48a0-9aca-f081a1de1971",
+      "0c4550c1-1943-4bfe-895f-21da7268311d",
+      "d60f992a-3010-4136-a042-2d4c5da0a055"
+    ],
+    "68e8cbae-ebcb-46a4-b4ac-0b301be72719": [
+      "4d811092-88e6-4e9c-a218-d81f21664a92",
+      "453866e7-59c5-4ae3-a94f-21f1c39b7bf0",
+      "27e8fbf8-0e5e-4938-9eff-e96fae25ef80",
+      "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c",
+      "40250964-5ac8-45fe-90fd-c5725e37fc23"
+    ],
+    "56db365e-73ed-4975-a3a0-377aee827578": [
+      "44ec02b9-6536-4bfb-993d-ca8f869c2337"
+    ],
+    "44ec02b9-6536-4bfb-993d-ca8f869c2337": [
+      "ff2c81e8-d3e6-41db-8700-0a709a396466"
+    ],
+    "ff2c81e8-d3e6-41db-8700-0a709a396466": [
+      "5d1736a7-2d66-4f7a-a749-f36e521d86bd",
+      "897d68b8-4e3d-4803-9529-87518bbc1917",
+      "31419cde-f8a5-4402-825b-741db5904745",
+      "b95641be-88aa-4d60-81c1-427f0574ea1d",
+      "7ba1a263-cd8b-4055-b13b-67cfe34d376b",
+      "2f284200-051d-445f-bb7d-3cc14c1edfb8",
+      "e87e73dc-5ad9-4d40-9294-44b56f54f7cd",
+      "3e582860-833f-4dde-a730-758a1a01d7d9",
+      "9629e237-6ff0-41bb-9e71-c5036faee380",
+      "fa73d731-678b-4be7-8b31-071304a93776",
+      "a4b51ff5-6bed-423d-bfc1-45378a24ea4f"
+    ]
+  },
+  "effects": {
+    "DOF": {
+      "type": "DOF",
+      "enabled": false,
+      "opacity": 1,
+      "bokehScale": 2,
+      "focusRange": 0.05,
+      "blendFunction": 23,
+      "focusDistance": 0,
+      "resolutionScale": 1
+    },
+    "SMAA": {
+      "type": "SMAA",
+      "preset": "2",
+      "enabled": true,
+      "opacity": 1,
+      "edgeMode": 2,
+      "blendFunction": 30,
+      "edgeThreshold": 0.05,
+      "predicationMode": 1,
+      "predicationScale": 2,
+      "edgeContrastFactor": 2,
+      "predicationStrength": 0.4,
+      "predicationThreshold": 0.001
+    },
+    "BLOOM": {
+      "type": "BLOOM",
+      "filter": false,
+      "radius": 0.35,
+      "enabled": true,
+      "opacity": 1,
+      "intensity": 0.035,
+      "blendFunction": 28,
+      "luminanceSmoothing": 0.025,
+      "luminanceThreshold": 0.9
+    },
+    "NOISE": {
+      "type": "NOISE",
+      "enabled": false,
+      "opacity": 0.1,
+      "blendFunction": 21
+    },
+    "VIGNETTE": {
+      "type": "VIGNETTE",
+      "offset": 0.5,
+      "enabled": true,
+      "opacity": 1,
+      "darkness": 0.18,
+      "technique": 0,
+      "blendFunction": 23
+    },
+    "PIXELATION": {
+      "type": "PIXELATION",
+      "enabled": false,
+      "opacity": 1,
+      "granularity": 6,
+      "blendFunction": 23
+    },
+    "COLOR_DEPTH": {
+      "bits": 16,
+      "type": "COLOR_DEPTH",
+      "enabled": false,
+      "opacity": 1,
+      "blendFunction": 23
+    },
+    "TONE_MAPPING": {
+      "mode": "6",
+      "type": "TONE_MAPPING",
+      "enabled": true,
+      "opacity": 1,
+      "exposure": 1,
+      "middleGrey": 0.6,
+      "resolution": 256,
+      "whitePoint": 4,
+      "minLuminance": 0.01,
+      "blendFunction": 23,
+      "adaptationRate": 1,
+      "averageLuminance": 1
+    },
+    "HUE_SATURATION": {
+      "hue": 0,
+      "type": "HUE_SATURATION",
+      "enabled": true,
+      "opacity": 1,
+      "saturation": 0.1,
+      "blendFunction": 23
+    },
+    "BRIGHTNESS_CONTRAST": {
+      "type": "BRIGHTNESS_CONTRAST",
+      "enabled": false,
+      "opacity": 1,
+      "contrast": 0.2,
+      "brightness": 0,
+      "blendFunction": 23
+    },
+    "SSAO": {
+      "opacity": 1,
+      "enabled": false,
+      "type": "SSAO",
+      "blendFunction": 21,
+      "samples": 32,
+      "rings": 7,
+      "color": "#000000",
+      "depthAwareUpsampling": true,
+      "distanceThreshold": 20,
+      "distanceFalloff": 2.5,
+      "proximityThreshold": 0.3,
+      "proximityFalloff": 0.1,
+      "luminanceInfluence": 0.7,
+      "minRadiusScale": 0.33,
+      "radius": 0.01,
+      "intensity": 10,
+      "bias": 0.025,
+      "fade": 0.01,
+      "resolutionScale": 1
+    },
+    "3d96305d-b9d7-4aa3-8cb7-ee584fa7f75c": {
+      "opacity": 1,
+      "enabled": true,
+      "uuid": "3d96305d-b9d7-4aa3-8cb7-ee584fa7f75c",
+      "type": "CUSTOM_EFFECT",
+      "blendFunction": 23,
+      "name": "Ripple Effect",
+      "uniforms": {},
+      "fragmentShader": "uniform sampler2D uPreviousFrame;uniform vec2 uMouse;uniform float uTime;uniform float uDeltaTime;void mainImage(const in vec4 inputColor, const in vec2 uv, out vec4 outputColor) {  float dist = distance(uv, uMouse);  float ripple = sin(dist * 20.0 - uTime * 5.0) * 0.006;  float strength = smoothstep(0.2, 0.0, dist);  vec2 offset = normalize(uv - uMouse) * ripple * strength;  vec4 colorR = texture2D(uPreviousFrame, uv + offset + vec2(0.005, 0.0) * strength);  vec4 colorG = texture2D(uPreviousFrame, uv + offset);  vec4 colorB = texture2D(uPreviousFrame, uv + offset - vec2(0.005, 0.0) * strength);  outputColor = vec4(colorR.r, colorG.g, colorB.b, 1.0);}"
+    },
+    "43bd54e1-e5c0-4c9b-8b1a-081f3a218f19": {
+      "opacity": 1,
+      "enabled": true,
+      "uuid": "43bd54e1-e5c0-4c9b-8b1a-081f3a218f19",
+      "type": "CUSTOM_EFFECT",
+      "blendFunction": 23,
+      "name": "Custom Effect",
+      "uniforms": {},
+      "fragmentShader": "void mainImage(const in vec4 inputColor, const in vec2 uv, out vec4 outputColor) { outputColor = inputColor; }"
+    },
+    "31118664-18f1-4829-ba86-3e30e115f0e8": {
+      "opacity": 1,
+      "enabled": true,
+      "uuid": "31118664-18f1-4829-ba86-3e30e115f0e8",
+      "type": "CUSTOM_EFFECT",
+      "blendFunction": 23,
+      "name": "Custom Effect",
+      "uniforms": {},
+      "fragmentShader": "void mainImage(const in vec4 inputColor, const in vec2 uv, out vec4 outputColor) { outputColor = inputColor; }"
+    }
+  },
+  "pwObjectsUsingPwMaterial": {
+    "d3d2a9b8-8dbb-4a2c-9d3a-0ddb0a8dc172": [
+      "b88a7069-660c-47c9-986c-69ac9860e529"
+    ],
+    "32a948eb-1e4b-4d9f-8f96-c03321e8ffbd": [
+      "9ca70751-8626-4609-8e70-bb3ff01788ce"
+    ],
+    "079b3aa5-e6d0-410c-8917-dd0d93af7fc8": [
+      "3f6b3856-6cc4-4b5e-a79b-edfcefec31da",
+      "8688f2ce-f77f-4bec-a06d-18d23dfe2321"
+    ],
+    "2ddbdf79-6c21-4c4f-b468-204c883ee847": [
+      "27e8fbf8-0e5e-4938-9eff-e96fae25ef80"
+    ],
+    "1d5443c8-2623-4946-af66-3ad6968868db": [
+      "0c4550c1-1943-4bfe-895f-21da7268311d"
+    ],
+    "45c49f2f-2e4f-4d63-9415-6de65c4d142b": [
+      "0c4550c1-1943-4bfe-895f-21da7268311d"
+    ],
+    "07362b77-dbf9-4c25-886e-03166958ad07": [
+      "0c4550c1-1943-4bfe-895f-21da7268311d"
+    ],
+    "44fee50e-f602-4ed9-8f05-35106add6e7c": [
+      "0c4550c1-1943-4bfe-895f-21da7268311d"
+    ],
+    "3c3308c5-d037-4a24-b7ea-5d9d7a646284": [
+      "0c4550c1-1943-4bfe-895f-21da7268311d"
+    ],
+    "fbc2e04c-c384-4c7c-a692-434351f07b16": [
+      "0c4550c1-1943-4bfe-895f-21da7268311d"
+    ],
+    "64f96f42-1fe1-4ad8-8796-a1de9ffe4456": [
+      "0c4550c1-1943-4bfe-895f-21da7268311d"
+    ],
+    "ece9587e-e5c6-455a-ac17-4af251e24e80": [
+      "0c4550c1-1943-4bfe-895f-21da7268311d"
+    ],
+    "dd2eedef-3014-43c8-b034-713f0635c774": [
+      "0c4550c1-1943-4bfe-895f-21da7268311d"
+    ],
+    "adfdabbb-4356-41e3-aea2-4c6f8b57e049": [
+      "df3e232e-f21c-4c0a-a464-4c16cc90d97a"
+    ],
+    "afb5c7e3-4034-4bb6-8bb0-5be57b222c50": [
+      "26186bfb-cb58-4026-a6e5-2c4e3b94c775",
+      "132eff5b-9a4d-426e-9d78-ef3bd7b25e39",
+      "e8430bb1-a26b-4a75-9dcf-052b41e60a7f",
+      "d747ac20-9f6f-4059-b6c9-1ba21269b572"
+    ],
+    "5480045a-64d1-44a4-99ba-b6b2b224a54f": [
+      "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c"
+    ],
+    "cbf8f798-0e69-4350-8ab8-cdadb5c55927": [
+      "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c"
+    ],
+    "3f62d440-b040-40e4-91f0-3c8c8e756caf": [
+      "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c"
+    ],
+    "3f081635-4636-4b80-822b-82f94f4c1b9d": [
+      "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c"
+    ],
+    "18a71d0a-d881-4295-8287-245e08cf6c4f": [
+      "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c"
+    ],
+    "1dfc648d-e4c6-41c6-8b55-3fed0f253ca3": [
+      "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c"
+    ],
+    "766028da-ea6a-4a60-80e5-5b5ad5580551": [
+      "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c"
+    ],
+    "70401133-889b-4ea6-a94f-9e20834a02c4": [
+      "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c"
+    ],
+    "a8145746-7ddd-48d5-a564-2fe0ac9a5863": [
+      "e2b529f2-316e-4d88-8c20-c73cf0b5fc4c"
+    ],
+    "527bd3f8-2b7a-45cd-9551-f1de191a2a1f": [
+      "40250964-5ac8-45fe-90fd-c5725e37fc23"
+    ],
+    "52539c68-31da-466e-bcdc-9b38867b8395": [
+      "40250964-5ac8-45fe-90fd-c5725e37fc23"
+    ],
+    "f3138d36-764c-4e65-8e78-eb545765189a": [
+      "40250964-5ac8-45fe-90fd-c5725e37fc23"
+    ],
+    "7efb6c2a-9adf-43a0-95ca-998136f33fba": [
+      "40250964-5ac8-45fe-90fd-c5725e37fc23"
+    ],
+    "2add5827-5b0f-4b6b-9375-37c6db6f4c43": [
+      "40250964-5ac8-45fe-90fd-c5725e37fc23"
+    ],
+    "97cc93d2-c405-48a0-9530-9659e3311308": [
+      "40250964-5ac8-45fe-90fd-c5725e37fc23"
+    ],
+    "42b58563-95ad-43db-93a9-c7515f8076ba": [
+      "40250964-5ac8-45fe-90fd-c5725e37fc23"
+    ],
+    "1d717e65-b1c4-4086-b667-0918aee88fc9": [
+      "40250964-5ac8-45fe-90fd-c5725e37fc23"
+    ],
+    "3817b0d9-3f92-4e54-aae8-88d88603014f": [
+      "40250964-5ac8-45fe-90fd-c5725e37fc23"
+    ],
+    "c5f87ab0-e6d0-427e-8eaf-216989d6e953": [
+      "5d1736a7-2d66-4f7a-a749-f36e521d86bd"
+    ],
+    "77f1f7fa-adcd-4a3b-b135-9d58d668b608": [
+      "897d68b8-4e3d-4803-9529-87518bbc1917"
+    ],
+    "982a3914-9c3e-491f-ae3d-249cc309bf62": [
+      "31419cde-f8a5-4402-825b-741db5904745"
+    ],
+    "b5cd5bb8-b3da-4aff-b4c8-01fd2ecff388": [
+      "b95641be-88aa-4d60-81c1-427f0574ea1d"
+    ],
+    "b8ffe078-94a4-4959-bada-fd1c723fd9fc": [
+      "7ba1a263-cd8b-4055-b13b-67cfe34d376b"
+    ],
+    "340132e3-def0-4e34-96dc-7bbc790a49b4": [
+      "2f284200-051d-445f-bb7d-3cc14c1edfb8"
+    ],
+    "9adaf335-abb5-402d-b99c-cd64b6357e92": [
+      "e87e73dc-5ad9-4d40-9294-44b56f54f7cd"
+    ],
+    "8731e897-0376-4f4f-bb2b-a44568fff4be": [
+      "3e582860-833f-4dde-a730-758a1a01d7d9"
+    ],
+    "94c15a49-b4b5-4213-be32-db45ecfc7e20": [
+      "9629e237-6ff0-41bb-9e71-c5036faee380"
+    ],
+    "0716fb66-541f-4cba-81f3-0c5cc2af0407": [
+      "fa73d731-678b-4be7-8b31-071304a93776"
+    ],
+    "df615e97-151a-48d3-9538-4d0ed12d6335": [
+      "a4b51ff5-6bed-423d-bfc1-45378a24ea4f"
+    ]
+  },
+  "sharedMaterials": [
+    "3caf3133-d6a0-4a15-9c3e-2b087f5db2a2",
+    "1720ba13-9ca8-4c14-8913-65e30b359772",
+    "3db3cb1a-f1c8-46d5-a498-73dd737a9b31",
+    "1ece5a44-a8df-454a-b8e7-5e288ecfdba4",
+    "eec0b3e8-2ae3-424a-b513-ee5954fb20b9",
+    "a84527e9-9b40-46d5-a36a-d84ee79c22ef",
+    "f1696746-1fbd-487d-ae21-76acb51b6d0b",
+    "b8910361-a56f-4ec3-90c9-ac6aa7e9ed7a",
+    "60b4421d-41bb-45c7-92f3-4a53ee60ebe3",
+    "bbb40bba-c9fc-4d16-9ca0-9d82fddc2ceb",
+    "f642bd5f-12b1-4522-8005-919db757cf64",
+    "eeb9a980-7b09-4bb8-8077-bcb8fdbb1fff",
+    "079b3aa5-e6d0-410c-8917-dd0d93af7fc8",
+    "afb5c7e3-4034-4bb6-8bb0-5be57b222c50"
+  ]
+}

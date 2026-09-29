@@ -1,0 +1,6 @@
+/* Search, accessibility, and small-screen refinements that leave the 3D scene alone. */
+.seo-visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;clip-path:inset(50%)!important;border:0!important}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:84px}
+@media(max-width:767px){html{scroll-padding-top:64px}#pwb-body-wrap{width:100%!important;max-width:100vw!important;overflow-x:clip!important}.interactive-studio-section{width:94%!important;max-width:100%!important;margin-inline:auto!important}.interactive-studio-section iframe{max-width:100%;border-radius:14px}.brand-contact{width:100%;max-width:100%;box-sizing:border-box}img,video{max-width:100%}}
+@media(max-width:420px){.brand-contact{padding-inline:14px!important}.brand-contact-grid{gap:12px!important}.brand-contact-card{min-width:0;overflow-wrap:anywhere}.demo-caption{overflow-wrap:anywhere}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}

@@ -1,0 +1,42 @@
+AVQOR — MESSAGE FIELD
+RIGHTS AND PRODUCTION CREDITS
+============================
+
+Work title: AVQOR — Message Field
+Year: 2026
+Creator and rights holder: Takuya Harada / AVQOR
+
+Copyright © 2026 Takuya Harada / AVQOR. All rights reserved.
+
+CONCEPT AND CREATIVE AUTHORSHIP
+-------------------------------
+
+Concept, art direction, writing, interaction direction, selection,
+arrangement, revision, and final editorial control by Takuya Harada,
+working under the name AVQOR.
+
+AI-ASSISTED DEVELOPMENT DISCLOSURE
+----------------------------------
+
+OpenAI Codex was used as a development assistant for implementation,
+debugging, performance optimization, and editorial refinement under the
+creator's direction. All creative decisions, selections, revisions, and
+release decisions were made and approved by Takuya Harada.
+
+The use of OpenAI Codex is disclosed as part of the production process.
+OpenAI is not identified as the author or rights holder of this work.
+
+THIRD-PARTY MATERIALS
+---------------------
+
+Third-party software remains subject to its respective license terms.
+See THIRD_PARTY_LICENSES.txt for the complete notices included with the
+distributed project.
+
+USE OF THIS WORK
+----------------
+
+Except for third-party components governed by their own licenses,
+unauthorized reproduction, redistribution, publication, sale, or adaptation
+of this work, in whole or in substantial part, is prohibited to the extent
+permitted by applicable law.

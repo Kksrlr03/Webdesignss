@@ -1,0 +1,15 @@
+:root{--gold:#e7bf68;--gold-light:#fff0c2;--gold-dark:#9b6b26}
+body{background:#080705;color:#fff6e2}
+canvas{filter:grayscale(1) sepia(1) saturate(1.65) hue-rotate(32deg)!important}
+.wd-brand{color:var(--gold-light)!important}
+.wd-brand img,.wd-loading img{filter:grayscale(1) sepia(1) saturate(2.4)!important}
+.wd-brand:focus-visible,[role="link"]:focus-visible{outline-color:var(--gold)!important}
+.wd-loading{color:var(--gold-light);background:#080705}
+#ikfl1,#ikfl1-3,#ikfl1-3-2,#ikfl1-4,#ikfl1-5,#ikfl1-3-3{color:var(--gold-light)!important}
+#iji2n-3-4,#iji2n-3-4-4,#iji2n-3-4-2{background:linear-gradient(115deg,#fff0bd 0%,#e7bf68 48%,#b68132 100%)!important;border:1px solid #e6bc65!important;box-shadow:0 0 30px #d6a74424!important;color:#211706!important}
+#iu2co-2-6-4,#iu2co-2-6-4-4,#iu2co-2-6-3{opacity:0!important}
+#ivkpg-3-4,#ivkpg-3-4-4,#ivkpg-3-4-2{color:#211706!important;position:relative;z-index:2}
+#iji2n-3-4-4-2-2,#iji2n-3-4-4-2-2-2{border-color:#dbb76d99!important;color:var(--gold-light)!important}
+#iji2n-3-4:hover,#iji2n-3-4-4:hover{box-shadow:0 0 34px #e0b45b66!important}
+#iji2n-3-4-4-2-2:hover,#iji2n-3-4-4-2-2-2:hover{background:#b9852926!important;box-shadow:0 0 26px #bd8b3433!important}
+::selection{background:#e7bf68;color:#171006}

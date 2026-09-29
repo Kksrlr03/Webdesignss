@@ -1,0 +1,20 @@
+/* Scoped to the six flat portfolio blocks; no 3D scene or other section overrides. */
+.demo-showcase-card{position:relative!important;overflow:hidden!important;padding:7px!important;isolation:isolate}
+.demo-showcase-card>:not(.demo-showcase-link):not(.demo-slot){display:none!important}
+.demo-showcase-link,.demo-slot{position:relative!important;display:block!important;width:100%!important;height:100%!important;min-height:150px;aspect-ratio:1800/918;border-radius:15px;overflow:hidden;pointer-events:auto!important}
+.demo-showcase-link{color:#fff;text-decoration:none;z-index:5;cursor:pointer;background:#102e28}
+.demo-showcase-link>img{width:100%!important;height:100%!important;object-fit:contain!important;position:absolute!important;inset:0!important;display:block!important;transition:filter .3s}
+.demo-caption{position:absolute;inset:auto 0 0;padding:30px 18px 14px;display:grid;grid-template-columns:1fr auto;gap:3px 15px;background:linear-gradient(transparent,#081b21e8);opacity:0;transform:translateY(8px);transition:.25s;pointer-events:none}
+.demo-caption strong{font-size:18px}.demo-caption small{grid-column:1;font-size:11px}.demo-caption b{grid-column:2;grid-row:1/3;font-size:28px;align-self:center}
+.demo-showcase-link:hover .demo-caption,.demo-showcase-link:focus-visible .demo-caption{opacity:1;transform:none}
+.demo-showcase-link:focus-visible{outline:3px solid #fff;outline-offset:-5px}
+.demo-slot{display:flex!important;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:linear-gradient(135deg,#ffffff09,#ffffff02);border:1px dashed #ffffff35;color:#f3f1e8a0}
+.demo-slot span{font:44px/1 Georgia,serif;color:#f3f1e850}.demo-slot small{font-size:11px;letter-spacing:.1em}
+@media(hover:none){.demo-caption{opacity:1;transform:none;padding-top:25px}.demo-caption strong{font-size:14px}.demo-caption small{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.demo-caption,.demo-showcase-link>img{transition:none}}
+
+/* Fill each project frame edge to edge; keep its preview free of side gutters. */
+.demo-showcase-link>img{object-fit:cover!important}
+
+/* Show each linked project's actual landing hero in its showcase frame. */
+.demo-hero-preview{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;border:0!important;display:block!important;pointer-events:none!important;background:#102e28;}

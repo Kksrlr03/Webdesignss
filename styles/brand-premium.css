@@ -1,0 +1,48 @@
+/* A quiet, tactile art direction: forest ink, warm stone, brushed brass. */
+/* Put the forest fallback on the scene plane so the transparent WebGL bird stays above it. */
+body{background:transparent!important}
+#ip9j{background:#11251f url('../assets/scene/forest-flight.png') center/cover no-repeat!important}
+#pwb-loading-wrap{display:none!important}
+:root{--brand-forest:#10231f;--brand-forest-raised:#192d27;--brand-moss:#263d32;--brand-stone:#f3efe4;--brand-brass:#cfb77f;--brand-line:rgba(224,207,159,.24);--brand-shadow:0 22px 54px rgba(2,13,11,.28)}
+
+/* Replace the bright, high-blur glass with richer surfaces that render smoothly. */
+.brand-lockup>.brand-logo-glass,.brand-lockup>span[data-copy],
+#ioqrg-2-2,#ioqrg-2-2-2,.premium-primary,.premium-secondary,
+.brand-contact-card,.brand-approach-card,[id^="imob0j-3-2-3"],
+.video-hover-wrapper,.lazy-video-wrapper,.studio-dialog,
+.demo-showcase-card,.review-card,#in6nbcy>div>div,
+#i6vxg7-3.interactive-studio-section{
+  border:1px solid var(--brand-line)!important;
+  background:linear-gradient(145deg,rgba(33,55,45,.97),rgba(13,31,27,.97))!important;
+  box-shadow:var(--brand-shadow),inset 0 1px 0 rgba(255,249,229,.07)!important;
+  -webkit-backdrop-filter:none!important;backdrop-filter:none!important;
+}
+.brand-lockup>.brand-logo-glass,.brand-lockup>span[data-copy]{border-radius:16px!important;color:var(--brand-stone)!important}
+.brand-lockup>.brand-logo-glass img{filter:grayscale(1) brightness(1.35)!important}
+.brand-contact-card,.brand-approach-card,.review-card{border-radius:20px!important;color:var(--brand-stone)!important}
+.brand-contact-icon{background:rgba(207,183,127,.12)!important;border-color:rgba(207,183,127,.3)!important;color:#e2cf9f!important}
+.brand-contact-arrow,.review-rating,.reviews-kicker{color:#ddc98f!important}
+.review-card{transition:transform .28s ease,border-color .28s ease,box-shadow .28s ease!important}
+.review-card:hover{transform:translateY(-4px);border-color:rgba(221,201,143,.58)!important;box-shadow:0 28px 58px rgba(2,13,11,.38),inset 0 1px 0 rgba(255,249,229,.08)!important}
+
+/* Give project previews a gallery frame instead of a floating glass tile. */
+.demo-showcase-card{padding:8px!important;border-radius:22px!important;overflow:hidden;transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease!important}
+.demo-showcase-card:hover{transform:translateY(-5px);border-color:rgba(221,201,143,.57)!important;box-shadow:0 28px 62px rgba(2,13,11,.42),inset 0 1px 0 rgba(255,249,229,.08)!important}
+.demo-showcase-link,.demo-slot{border-radius:15px!important}
+.demo-caption{background:linear-gradient(transparent,rgba(9,23,19,.96))!important;padding:38px 20px 17px!important}
+.demo-caption strong{color:#f3efe4!important;letter-spacing:.015em!important}
+.demo-caption small{color:#dfd8c6!important}
+.demo-showcase-link:focus-visible{outline:2px solid var(--brand-brass)!important}
+
+/* Consistent, quieter surfaces in the process and service cards. */
+#in6nbcy>div>div{border-radius:22px!important;min-height:340px}
+#in6nbcy .service-loop{border-color:rgba(221,201,143,.2)!important}
+.interactive-studio-section{border-radius:24px!important;overflow:hidden;box-shadow:var(--brand-shadow)!important}
+#interactive-studio{border-radius:18px!important}
+.premium-primary,.premium-secondary,#ioqrg-2-2,#ioqrg-2-2-2{border-radius:999px!important;transition:transform .24s ease,border-color .24s ease,background-color .24s ease!important}
+.premium-primary,.premium-secondary{color:var(--brand-stone)!important;background:linear-gradient(135deg,#344d3e,#1c332b)!important}
+.premium-primary:hover,.premium-secondary:hover,#ioqrg-2-2:hover,#ioqrg-2-2-2:hover{transform:translateY(-2px);border-color:rgba(221,201,143,.65)!important}
+:is(a,button,[role=button]):focus-visible{outline:2px solid var(--brand-brass)!important;outline-offset:4px}
+@media(max-width:767px){.demo-showcase-card{border-radius:18px!important}.demo-showcase-card:hover,.review-card:hover{transform:none}.interactive-studio-section{border-radius:18px!important}#in6nbcy>div>div{border-radius:18px!important}}
+@media(prefers-reduced-motion:reduce){.demo-showcase-card,.review-card,.premium-primary,.premium-secondary,#ioqrg-2-2,#ioqrg-2-2-2{transition:none!important}.demo-showcase-card:hover,.review-card:hover{transform:none}}
+

@@ -1,0 +1,192 @@
+{
+  "logo": "assets/brand/logo-gold.png",
+  "projectPoster": "assets/images/project-preview.svg",
+  "showreel": "",
+  "contactUrl": "mailto:webdesignss.site@gmail.com",
+  "contactMessage": "Tell us about your brand, your goals, and the website you have in mind.",
+  "projects": [
+    {
+      "id": "01",
+      "title": "Sculptural digital forms",
+      "media": {
+        "type": "image",
+        "src": "assets/images/agency-photos/photo-01.jpg",
+        "width": 1600,
+        "height": 900,
+        "fit": "cover"
+      },
+      "link": "",
+      "target": "_blank"
+    },
+    {
+      "id": "02",
+      "title": "Interface sketching",
+      "media": {
+        "type": "image",
+        "src": "assets/images/agency-photos/photo-10.jpg",
+        "width": 1600,
+        "height": 1200,
+        "fit": "cover"
+      },
+      "link": "",
+      "target": "_blank"
+    },
+    {
+      "id": "03",
+      "title": "Flow and interaction",
+      "media": {
+        "type": "image",
+        "src": "assets/images/agency-photos/photo-06.jpg",
+        "width": 1600,
+        "height": 900,
+        "fit": "cover"
+      },
+      "link": "",
+      "target": "_blank"
+    },
+    {
+      "id": "04",
+      "title": "Material and composition",
+      "media": {
+        "type": "image",
+        "src": "assets/images/agency-photos/photo-07.jpg",
+        "width": 1600,
+        "height": 2844,
+        "fit": "cover"
+      },
+      "link": "",
+      "target": "_blank"
+    },
+    {
+      "id": "05",
+      "title": "Light and surface detail",
+      "media": {
+        "type": "image",
+        "src": "assets/images/agency-photos/photo-04.jpg",
+        "width": 1600,
+        "height": 900,
+        "fit": "cover"
+      },
+      "link": "",
+      "target": "_blank"
+    },
+    {
+      "id": "06",
+      "title": "Structure and rhythm",
+      "media": {
+        "type": "image",
+        "src": "assets/images/agency-photos/photo-08.jpg",
+        "width": 1600,
+        "height": 2403,
+        "fit": "cover"
+      },
+      "link": "",
+      "target": "_blank"
+    },
+    {
+      "id": "07",
+      "title": "Dimensional design",
+      "media": {
+        "type": "image",
+        "src": "assets/images/agency-photos/photo-03.jpg",
+        "width": 1600,
+        "height": 900,
+        "fit": "cover"
+      },
+      "link": "",
+      "target": "_blank"
+    },
+    {
+      "id": "08",
+      "title": "A blank creative canvas",
+      "media": {
+        "type": "image",
+        "src": "assets/images/agency-photos/photo-02.jpg",
+        "width": 1600,
+        "height": 1067,
+        "fit": "cover"
+      },
+      "link": "",
+      "target": "_blank"
+    },
+    {
+      "id": "09",
+      "title": "Organic digital craft",
+      "media": {
+        "type": "image",
+        "src": "assets/images/agency-photos/photo-05.jpg",
+        "width": 1600,
+        "height": 900,
+        "fit": "cover"
+      },
+      "link": "",
+      "target": "_blank"
+    },
+    {
+      "id": "10",
+      "title": "Natural visual direction",
+      "media": {
+        "type": "image",
+        "src": "assets/images/agency-photos/photo-09.jpg",
+        "width": 1600,
+        "height": 1067,
+        "fit": "cover"
+      },
+      "link": "",
+      "target": "_blank"
+    },
+    {
+      "id": "11",
+      "title": "Creative studio atmosphere",
+      "media": {
+        "type": "image",
+        "src": "assets/images/agency-photos/photo-11.jpg",
+        "width": 1600,
+        "height": 2400,
+        "fit": "cover"
+      },
+      "link": "",
+      "target": "_blank"
+    }
+  ],
+  "imageSlots": {
+    "image-01": "assets/images/project-1.svg",
+    "image-02": "assets/images/project-2.svg",
+    "image-03": "assets/images/project-3.svg",
+    "image-04": "assets/images/project-4.svg",
+    "image-05": "assets/images/project-5.svg",
+    "image-06": "assets/images/project-6.svg",
+    "image-07": "assets/images/project-1.svg",
+    "image-08": "assets/images/project-1.svg",
+    "image-09": "assets/images/project-1.svg",
+    "image-10": "assets/images/project-2.svg",
+    "image-11": "assets/images/project-2.svg",
+    "image-12": "assets/images/project-3.svg",
+    "image-13": "assets/images/project-3.svg",
+    "image-14": "assets/images/project-4.svg",
+    "image-15": "assets/images/project-4.svg",
+    "image-16": "assets/images/project-5.svg",
+    "image-17": "assets/images/project-5.svg",
+    "image-18": "assets/images/project-6.svg",
+    "image-19": "assets/images/project-6.svg",
+    "image-20": "assets/images/project-2.svg",
+    "image-21": "assets/images/project-3.svg",
+    "image-22": "assets/images/agency-photos/abstract-9789217.jpg",
+    "image-23": "assets/images/agency-photos/abstract-13014234.jpg",
+    "image-24": "assets/images/agency-photos/abstract-10049469.jpg",
+    "image-25": "assets/images/agency-photos/abstract-33879247.jpg",
+    "image-26": "assets/images/agency-photos/abstract-27594601.jpg",
+    "image-27": "assets/images/agency-photos/abstract-12913152.jpg"
+  },
+  "approachSlots": [
+    "assets/images/agency-photos/abstract-33866367.jpg",
+    "assets/images/agency-photos/abstract-12537430.jpg",
+    "assets/images/agency-photos/abstract-29626041.jpg",
+    "assets/images/agency-photos/abstract-12198530.jpg"
+  ],
+  "contacts": {
+    "email": "webdesignss.site@gmail.com",
+    "phone": "9948429459",
+    "instagram": "web_designss"
+  }
+}

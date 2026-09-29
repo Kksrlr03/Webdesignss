@@ -1,0 +1,15 @@
+/* Keep the mobile hero visible only for the initial frame. The class is
+   removed as soon as the visitor scrolls, restoring its authored reveal. */
+@media (max-width: 767px) {
+  html.mobile-hero-opening #i54bq-2-2 {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+  }
+
+  /* The exported mobile hero contains a second copy of its supporting line
+     and CTA row; keep the original first set as the single visible version. */
+  #i54bq-2-2 > #i2omk-2-2-4-2,
+  #i54bq-2-2 > #irsa34-2-3-4-2-2 {
+    display: none !important;
+  }
+}

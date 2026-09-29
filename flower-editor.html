@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102720">
+  <title>Flower placement | Web Designss</title>
+  <link rel="stylesheet" href="styles/flower-editor.css">
+</head>
+<body>
+  <main class="editor-shell">
+    <aside class="controls" aria-label="Flower placement controls">
+      <a class="back-link" href="./">← Back to site</a>
+      <p class="eyebrow">PRIVATE SITE TOOL</p>
+      <h1>Place the flowers.</h1>
+      <p class="intro">Select a flower, then use the sliders or turn on drag mode and move it right in the preview. Your bird, its path, and the backgrounds stay as they are.</p>
+
+      <label class="field-label" for="flower-select">Flower position</label>
+      <select id="flower-select">
+        <option value="55fb6151-9af8-40ad-b942-77c1321fd3f5">Hero · follows the bird</option>
+        <option value="b9ad8c2e-def3-436b-849c-b907fbb1fb92">Left side</option>
+        <option value="339aa29f-428e-497a-90e7-086d3764980c">Middle section</option>
+        <option value="851869fe-85c5-48a6-9a2d-e595f6363148">Right side</option>
+      </select>
+
+      <div class="control-block">
+        <div class="control-heading"><label for="size-range">Size</label><output id="size-value">100%</output></div>
+        <input id="size-range" type="range" min="10" max="1000" step="5" value="100">
+        <div class="range-ends"><span>Smaller</span><span>Larger</span></div>
+      </div>
+
+      <fieldset class="position-fields">
+        <legend>Position</legend>
+        <div class="control-block">
+          <div class="control-heading"><label for="x-range">Horizontal</label><output id="x-value"></output></div>
+          <input id="x-range" type="range" min="-3" max="3" step="0.01">
+        </div>
+        <div class="control-block">
+          <div class="control-heading"><label for="y-range">Vertical</label><output id="y-value"></output></div>
+          <input id="y-range" type="range" min="-3" max="3" step="0.01">
+        </div>
+        <div class="control-block">
+          <div class="control-heading"><label for="z-range">Depth</label><output id="z-value"></output></div>
+          <input id="z-range" type="range" min="-3" max="3" step="0.01">
+        </div>
+      </fieldset>
+
+      <fieldset class="rotation-fields">
+        <legend>Rotation</legend>
+        <div class="control-block">
+          <div class="control-heading"><label for="rot-y-range">Horizontal tilt</label><output id="rot-y-value"></output></div>
+          <input id="rot-y-range" type="range" min="-360" max="360" step="1">
+        </div>
+        <div class="control-block">
+          <div class="control-heading"><label for="rot-x-range">Vertical tilt</label><output id="rot-x-value"></output></div>
+          <input id="rot-x-range" type="range" min="-360" max="360" step="1">
+        </div>
+        <div class="control-block">
+          <div class="control-heading"><label for="rot-z-range">Full rotation</label><output id="rot-z-value"></output></div>
+          <input id="rot-z-range" type="range" min="-360" max="360" step="1">
+        </div>
+      </fieldset>
+
+      <button id="drag-toggle" class="secondary-button" type="button" aria-pressed="false">Drag in preview</button>
+      <p id="drag-hint" class="hint">Turn on drag mode to move the selected flower with your mouse or finger. The flower stays inside the preview while you drag.</p>
+
+      <div class="actions">
+        <button id="reset-button" class="reset-button" type="button">Reset flower</button>
+        <button id="save-button" class="save-button" type="button">Save placement</button>
+      </div>
+      <p id="status" class="status" role="status" aria-live="polite">Loading the live preview…</p>
+      <p class="note">Save writes each flower’s position, size, and rotation into the desktop and mobile scene files. The hero flower’s animated path receives the same placement offset, so the saved result appears on the main site after reload. Start the project with <code>npm start</code> to save changes for GitHub.</p>
+    </aside>
+    <section class="preview" aria-label="Live website preview">
+      <div class="preview-top"><span>LIVE PREVIEW</span><span>Drag mode lets you place the selected flower directly</span></div>
+      <div id="preview-frame" class="preview-frame">
+        <iframe id="site-preview" title="Live Web Designss site preview" src="./" loading="eager"></iframe>
+        <div id="drag-surface" class="drag-surface" aria-label="Drag selected flower in preview" aria-hidden="true"></div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="scripts/flower-editor.js"></script>
+</body>
+</html>

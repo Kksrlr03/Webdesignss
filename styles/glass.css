@@ -1,0 +1,84 @@
+/* Silver liquid-glass surfaces. Existing media slots and scene geometry stay intact. */
+:root{--glass-fill:linear-gradient(135deg,#ecfaff24,#ecfaff06 45%,#b8d9e414),#122d2e70;--glass-edge:#edfbff70;--glass-shadow:inset 0 1px 1px #ffffffa3,inset 0 -1px 1px #ccefff30,0 12px 32px #061f2524}
+#ir9fo{display:flex!important;justify-content:space-between!important;align-items:center!important;padding:20px 28px!important;gap:20px!important;background:transparent!important;box-sizing:border-box}
+#iv6dna,#iv6dna-3{width:auto!important;flex:0 0 auto!important;display:flex!important;position:static!important}
+#ioqrg-2{display:flex!important;align-items:center!important;gap:12px!important;width:auto!important}
+#ioqrg-2-2,#ioqrg-2-2-2{display:flex!important;align-items:center!important;justify-content:center!important;min-height:52px;padding:0 22px!important;border-radius:17px!important;margin:0!important;box-sizing:border-box;cursor:pointer}
+.brand-lockup{width:auto!important;height:auto!important;gap:9px!important;font-size:23px!important}
+.brand-lockup>.brand-logo-glass,.brand-lockup>span[data-copy]{display:flex;align-items:center;justify-content:center;height:60px;border-radius:18px;box-sizing:border-box;background:var(--glass-fill)!important;border:1px solid var(--glass-edge)!important;box-shadow:var(--glass-shadow)!important;backdrop-filter:blur(18px) saturate(145%);-webkit-backdrop-filter:blur(18px) saturate(145%)}
+.brand-lockup>.brand-logo-glass{width:76px;padding:10px}
+.brand-lockup>span[data-copy]{padding:0 19px;color:#f3fcff;text-shadow:0 1px 8px #07283166}
+.brand-lockup .brand-logo-glass img{width:56px!important;height:38px!important;filter:grayscale(1) brightness(1.65) contrast(1.12)!important;mix-blend-mode:screen!important}
+#ixe4zkj{filter:grayscale(1) brightness(1.65)!important}
+#ioqrg-2-2,#ioqrg-2-2-2,.premium-primary,.premium-secondary,.brand-contact-card,.brand-contact-icon,.brand-approach-card,[id^="imob0j-3-2-3"],.video-hover-wrapper,.lazy-video-wrapper,.studio-dialog,#i4qyc{
+ background:var(--glass-fill)!important;border:1px solid var(--glass-edge)!important;box-shadow:var(--glass-shadow)!important;backdrop-filter:blur(20px) saturate(140%);-webkit-backdrop-filter:blur(20px) saturate(140%);border-radius:22px!important;color:#f4fbff!important}
+.premium-primary *,.premium-secondary *,#ioqrg-2-2 *,#ioqrg-2-2-2 *{color:#f4fbff!important;text-shadow:0 1px 8px #06252a66!important}
+.brand-contact-card,.brand-approach-card,[id^="imob0j-3-2-3"]{background:linear-gradient(135deg,#f0fbff28,#daf4ff08 50%,#badff41c),#102c347d!important}
+.brand-contact-icon{color:#eefaff!important;background:linear-gradient(135deg,#ffffff40,#d6f5ff10)!important}
+.brand-contact-arrow{color:#deefff!important}
+img[data-media="projectPoster"],.brand-approach-art{border:1px solid #e7faff85!important;border-radius:18px!important;box-shadow:inset 0 1px 1px #fff9,0 12px 34px #061f2533;background:#c5e6f21c;box-sizing:border-box}
+.brand-contact-card:hover,.premium-primary:hover,.premium-secondary:hover{border-color:#fff!important;box-shadow:inset 0 1px 2px #fff,0 14px 36px #092f3544!important}
+@supports not (backdrop-filter:blur(1px)){.brand-contact-card,.brand-approach-card,[id^="imob0j-3-2-3"]{background:#24434bea!important}}
+@media(max-width:767px){#ir9fo{padding:12px!important;gap:8px!important;flex-wrap:wrap!important}.brand-lockup{font-size:18px!important;gap:6px!important}.brand-lockup>.brand-logo-glass,.brand-lockup>span[data-copy]{height:46px;border-radius:14px}.brand-lockup>.brand-logo-glass{width:54px;padding:7px}.brand-lockup .brand-logo-glass img{width:40px!important;height:30px!important}.brand-lockup>span[data-copy]{padding:0 12px}#iv6dna-3{margin-left:auto!important}#ioqrg-2{gap:7px!important}#ioqrg-2-2,#ioqrg-2-2-2{min-height:42px;padding:0 12px!important;font-size:14px!important;border-radius:13px!important}}
+@media(max-width:480px){#iv6dna{width:100%!important}#iv6dna-3{width:100%!important;justify-content:flex-end!important}#ir9fo{row-gap:9px!important}}
+
+#ir9fo .brand-lockup{position:relative!important;inset:auto!important;flex-shrink:0!important}
+#ir9fo{height:auto!important;min-height:0!important}
+#ir9fo #iv6dna-3{height:auto!important;min-height:0!important;margin-top:0!important;margin-bottom:0!important}
+#ir9fo #ipavn-2-2-2-2-2-2-2,#ir9fo #i6wd7-2-2-2-2-2-2-2{width:auto!important;height:auto!important;white-space:nowrap!important;line-height:1.2!important}
+#ir9fo #ioqrg-2-2-2 [data-copy]{white-space:nowrap!important}
+
+#ir9fo #imob0j-3-5-2-2-2{display:none!important}
+#ir9fo #ioqrg-2-2-2 [data-copy]{position:relative;z-index:2}
+
+/* One glass surface per CTA: remove legacy rectangular inner skins. */
+.premium-primary,.premium-secondary,#ioqrg-2-2,#ioqrg-2-2-2{
+ display:inline-flex!important;align-items:center!important;justify-content:center!important;
+ min-height:48px;box-sizing:border-box!important;padding:12px 22px!important;
+ border-radius:22px!important;overflow:hidden!important;isolation:isolate;
+ text-decoration:none!important;cursor:pointer;vertical-align:middle;
+}
+.premium-primary *,.premium-secondary *,#ioqrg-2-2 *,#ioqrg-2-2-2 *{
+ background:transparent!important;background-image:none!important;border:0!important;
+ box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;
+ border-radius:0!important;
+}
+.premium-primary>.framer-1cc0f02,.premium-secondary>.framer-1cc0f02,
+#ioqrg-2-2>.framer-1cc0f02,#ioqrg-2-2-2>.framer-1cc0f02{display:none!important}
+.premium-primary>div:not(.framer-1cc0f02),.premium-secondary>div:not(.framer-1cc0f02){
+ width:auto!important;height:auto!important;min-height:0!important;margin:0!important;padding:0!important;
+}
+.premium-primary [data-copy],.premium-secondary [data-copy]{white-space:nowrap;line-height:1.25!important}
+.premium-primary:focus-visible,.premium-secondary:focus-visible,#ioqrg-2-2:focus-visible,#ioqrg-2-2-2:focus-visible{
+ outline:2px solid #f4fbff!important;outline-offset:4px;
+}
+
+/* Three service videos beneath the main showreel. */
+#in6nbcy{gap:20px!important;align-items:stretch!important}
+#in6nbcy>div{min-width:0!important;flex:1 1 0!important;height:auto!important}
+#in6nbcy>div>div{
+ display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr)!important;
+ grid-template-rows:auto auto 1fr auto!important;gap:12px 20px!important;
+ padding:22px!important;box-sizing:border-box!important;height:100%!important;min-height:340px!important;
+ overflow:hidden!important;align-content:start!important;
+}
+#in6nbcy>div>div>img{display:none!important}
+#in6nbcy .service-loop{
+ grid-column:1!important;grid-row:1 / 5!important;position:relative!important;inset:auto!important;
+ display:block!important;width:100%!important;height:100%!important;min-height:250px!important;
+ max-height:350px!important;object-fit:contain!important;border-radius:16px!important;
+ background:#101b1b!important;border:1px solid #efffff30!important;box-sizing:border-box!important;
+}
+#in6nbcy>div>div>div{
+ grid-column:2!important;position:relative!important;inset:auto!important;width:auto!important;
+ height:auto!important;min-height:0!important;margin:0!important;padding:0!important;
+ transform:none!important;max-width:100%!important;
+}
+#in6nbcy [data-copy="design"],#in6nbcy [data-copy="experience"],#in6nbcy [data-copy="development-2"]{font-size:11px!important;letter-spacing:1.5px!important}
+#in6nbcy>div>div>div:nth-of-type(2){font-size:clamp(20px,1.55vw,30px)!important;line-height:1.15!important;letter-spacing:-.5px!important}
+#in6nbcy>div>div>div:nth-of-type(2) *{font-size:inherit!important;line-height:inherit!important}
+#in6nbcy>div>div>div:nth-of-type(3){font-size:14px!important;line-height:1.5!important}
+#in6nbcy>div>div>div:nth-of-type(4){font-size:12px!important;align-self:end!important;display:flex!important;align-items:center!important;gap:8px!important}
+#in6nbcy>div>div>div:nth-of-type(4) *{font-size:inherit!important}
+@media(max-width:1100px){#in6nbcy{flex-direction:column!important}#in6nbcy>div{width:100%!important}#in6nbcy>div>div{min-height:300px!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important}#in6nbcy>div>div>div:nth-of-type(2){font-size:28px!important}}
+@media(max-width:480px){#in6nbcy>div>div{padding:16px!important;gap:10px 14px!important;min-height:280px!important}#in6nbcy>div>div>div:nth-of-type(2){font-size:21px!important}#in6nbcy>div>div>div:nth-of-type(3){font-size:12px!important}#in6nbcy .service-loop{min-height:230px!important}}
